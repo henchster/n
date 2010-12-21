@@ -1,0 +1,104 @@
+<table border="1">
+  
+  <%= image_tag(@product.image_url) %>
+  <tr>
+<th><%=  @product.modelname %></th</tr>
+<th>Color:</th>
+<tr>
+<td><%=  @product.color %></td>
+</tr>
+</table>
+
+<table border="1">
+  <th>Product Specifications:</th>
+  <tr>
+    <th>General:</th>
+    </tr>
+  <tr>
+    <th>Network 2G</th>
+  <td><%= @product.mobileprofile.gtwognetwork %></td>
+  <th>Network 3G</th>
+<td><%= @product.mobileprofile.gthreegnetwork %></td>
+</tr>
+    <th>Size:</th>
+      <tr>
+        <th>Dimensions:</th>
+<td><%= @product.mobileprofile.sdimensions %></td>
+<th>Weight:</th>
+<td><%= @product.mobileprofile.sweight %></td>
+      </tr>
+<th>Display:</th>
+<tr>
+  <th>Type:</th>
+<td><%= @product.mobileprofile.dtype %></td>
+<th>Size:</th>
+<td><%= @product.mobileprofile.dsize %></td>
+</tr>
+<th>Sound:</th>
+<tr>
+  <th>Alert type:</th>
+<td><%= @product.mobileprofile.salerttype %></td>
+</tr>
+<th>Memory:</th>
+<tr>
+  <th>Internal</th>
+<td><%= @product.mobileprofile.minternal %></td>
+ <th>Card Slot</th>
+<td><%= @product.mobileprofile.mcardslot %></td>
+</tr>
+<th>Data:</th>
+<tr>
+  <th>WLAN</th>
+<td><%= @product.mobileprofile.dwlan %></td>
+ <th>Bluetooth</th>
+<td><%= @product.mobileprofile.dbluetooth %></td>
+ <th>USB</th>
+<td><%= @product.mobileprofile.dusb %></td>
+</tr>
+<th>Camera</th>
+<tr>
+  <th>Primary</th>
+<td><%= @product.mobileprofile.cprimary %></td>
+<th>Video</th>
+<td><%= @product.mobileprofile.cvideo %></td>
+<th>Secondary</th>
+<td><%= @product.mobileprofile.csecondary %></td>
+</tr>
+<th>Features</th>
+<tr>
+  <th>OS</th>
+<td><%= @product.mobileprofile.fos %></td>
+<th>Radio</th>
+<td><%= @product.mobileprofile.fradio %></td>
+<th>Color</th>
+<td><%= @product.mobileprofile.fcolor %></td>
+<th>Java</th>
+<td><%= @product.mobileprofile.fjava %></td>
+</tr>
+<th>Battery</th>
+<tr>
+  <th>:</th>
+<td><%= @product.mobileprofile.battery %></td></tr>
+<th>Price</th>
+<tr>
+  <td>iOne Plus</td>
+  <td>iTwo Value</td>
+  <td>iTwo Plus</td>
+  <td>iThree Plus</td>
+  <td>Flexi Lite</td>
+  <td>Flexi Value</td>
+  <td>Flexi Plus</td>
+</tr>
+<tr>
+  <td><%= number_to_currency(@product.mobileprice.iop) %></td>
+  <td><%= number_to_currency(@product.mobileprice.itv) %></td>
+  <td><%= number_to_currency(@product.mobileprice.itp) %></td>
+  <td><%= number_to_currency(@product.mobileprice.ithp) %></td>
+  <td><%= number_to_currency(@product.mobileprice.fl) %></td>
+  <td><%= number_to_currency(@product.mobileprice.fv) %></td>
+  <td><%= number_to_currency(@product.mobileprice.fp) %></td>
+</tr>
+
+</table>
+
+

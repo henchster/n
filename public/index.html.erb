@@ -1,0 +1,38 @@
+
+  <div id="brands">
+    <%= link_to "Mobile", :controller => 'mobile' %>
+    <%= link_to "mio Plan", :controller => 'mioplan' %>
+    <%= link_to "mio Home", :controller => 'miohome' %>
+  </div>
+
+<hr />
+
+<a href="#" onclick="Effect.toggle('3gpriceplan', 'slide'); return false;"><em>></em> Mobile Price Plan</a>
+<div id="3gpriceplan" style="display:none">
+  <div>
+    <%= image_tag("3gpriceplan.jpg") %>
+  </div>
+</div>
+<br />
+<a href="#" onclick="Effect.toggle('flexipriceplan', 'slide'); return false;"><em>></em> Flexi Price Plan</a>
+<div id="flexipriceplan" style="display:none">
+  <div>
+    <%= image_tag("flexipriceplan.jpg") %>
+  </div>
+</div>
+
+<h4 class="red">Looking for the best costing saving price plan? Let us help you find that by entering your mobile usage! </h4>
+
+    <%= form_tag ({:action => :result, :remote => true}) do %>
+    Enter Your Mobile Usage<br />
+        <label for="Talktime">Talktime:</label>
+        <%= number_field_tag :talktime, params[:talktime] %> mins<br />
+        <label for="Data">Data Usage:</label>
+        <%= number_field_tag :data, params[:data] %> mb<br />
+        <label for="Subscription Fee">Subscription Fee: $</label>
+        <%= number_field_tag :subfee, params[:subfee] %><br />
+        <%= submit_tag "Calculate" %>
+    <% end %>
+
+        <p><%= @result  %></p>
+       

@@ -1,0 +1,76 @@
+<div id="sub-navigation" class="span-24 last append-bottom">
+    <%= link_to "Mobile", :controller => 'mobile' %>
+    <%= link_to "mio Plan", :controller => 'mioplan' %>
+    <%= link_to "mio Home", :controller => 'miohome' %>
+</div>
+
+<hr />
+
+<div class="span-24 last box">
+<a href="#" onclick="Effect.toggle('miohomepriceplan', 'slide'); return false;"><em>></em> mio Home Price Plan</a>
+<div id="miohomepriceplan" style="display:none">
+  <div>
+    <%= image_tag("miohomepriceplan.jpg") %>
+  </div>
+</div>
+</div>
+
+<div class="span-13">
+  <table summary="mio Plan Multi line discount"  border="0" cellspacing="0" cellpadding="0">
+   <caption><em>Calculate your mio Home multi line discount </em>
+<%= form_tag ({:action => :mld, :remote => true })%>
+  Select the Number of Mobile Lines:
+  <%= select_tag "lines", options_for_select(1..5, params[:lines])%>
+  <%= "Savings on Each Subscription: #{@linedis}%"%>
+   </caption>
+    <thead>
+  <tr>
+    <th>Mobile Lines</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>Total Subscription</th>
+  </tr>
+  </thead>
+  <tr>
+    <td>Price Plan</td>
+    <td><%= select_tag "pp1", options_for_select(["", 'iOne Plus', 'iTwo Value', 'iTwo Plus', 'iThree Plus', 'Flexi Lite', 'Flexi', 'Flexi Plus'], params[:pp1])%></td>
+    <td><%= select_tag "pp2", options_for_select(["", 'iOne Plus', 'iTwo Value', 'iTwo Plus', 'iThree Plus', 'Flexi Lite', 'Flexi', 'Flexi Plus'], params[:pp2])%></td>
+    <td><%= select_tag "pp3", options_for_select(["", 'iOne Plus', 'iTwo Value', 'iTwo Plus', 'iThree Plus', 'Flexi Lite', 'Flexi', 'Flexi Plus'], params[:pp3])%></td>
+    <td><%= select_tag "pp4", options_for_select(["", 'iOne Plus', 'iTwo Value', 'iTwo Plus', 'iThree Plus', 'Flexi Lite', 'Flexi', 'Flexi Plus'], params[:pp4])%></td>
+    <td><%= select_tag "pp5", options_for_select(["", 'iOne Plus', 'iTwo Value', 'iTwo Plus', 'iThree Plus', 'Flexi Lite', 'Flexi', 'Flexi Plus'], params[:pp5])%></td
+    
+  </tr>
+  <tr>
+    <td>Subscription Fee</td>
+    <td><%= number_to_currency(@ppsf1) %></td>
+    <td><%= number_to_currency(@ppsf2) %></td>
+    <td><%= number_to_currency(@ppsf3) %></td>
+    <td><%= number_to_currency(@ppsf4) %></td>
+    <td><%= number_to_currency(@ppsf5) %></td>
+    <td><%= number_to_currency(@ttsf) %></td>
+  </tr>
+  <tr>
+    <td>After Discount</td>
+    <td><%= number_to_currency(@ppad1) %></td>
+    <td><%= number_to_currency(@ppad2) %></td>
+    <td><%= number_to_currency(@ppad3) %></td>
+    <td><%= number_to_currency(@ppad4) %></td>
+    <td><%= number_to_currency(@ppad5) %></td>
+    <td><%= number_to_currency(@ttad) %></td>
+  </tr>
+  <tr>
+    <td>Savings</td>
+    <td><%= number_to_currency(@pps1)  %></td>
+    <td><%= number_to_currency(@pps2)  %></td>
+    <td><%= number_to_currency(@pps3)  %></td>
+    <td><%= number_to_currency(@pps4)  %></td>
+    <td><%= number_to_currency(@pps5)  %></td>
+    <td> <%= number_to_currency(@tts) %></td>
+  </tr>
+</table>
+  <div class="prepend-1 append-bottom"><%= submit_tag("Calculate") %>
+</div>
+</div>

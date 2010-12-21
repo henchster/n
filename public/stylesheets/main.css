@@ -1,0 +1,10 @@
+#navigation a {
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+#sub-navigation a{
+    padding: 0.5em 0.5em;
+    font-size: 1.1em;
+}

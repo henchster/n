@@ -1,0 +1,2 @@
+module MioplanHelper
+end

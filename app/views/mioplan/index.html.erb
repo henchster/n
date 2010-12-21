@@ -1,0 +1,131 @@
+<div id="sub-navigation" class="span-24 last append-bottom">
+    <%= link_to "Mobile", :controller => 'mobile' %>
+    <%= link_to "mio Plan", :controller => 'mioplan' %>
+    <%= link_to "mio Home", :controller => 'miohome' %>
+</div>
+
+<hr />
+<div class="span-24 last box">
+<a href="#" onclick="Effect.toggle('6mbpsmioplan', 'slide'); return false;"><em>> 6 Mbps</em> mio Plan</a>
+<div id="6mbpsmioplan" style="display:none">
+  <div>
+    <%= image_tag("6mioplan.jpg") %>
+  </div>
+</div>
+<br />
+<a href="#" onclick="Effect.toggle('10mbpsmioplan', 'slide'); return false;"><em>> 10 Mbps</em> mio Plan</a>
+<div id="10mbpsmioplan" style="display:none">
+  <div>
+    <%= image_tag("10mioplan.jpg") %>
+  </div>
+</div>
+<br />
+<a href="#" onclick="Effect.toggle('15mbpsmioplan', 'slide'); return false;"><em>> 15 Mbps</em> mio Plan</a>
+<div id="15mbpsmioplan" style="display:none">
+  <div>
+    <%= image_tag("15mioplan.jpg") %>
+  </div>
+</div>
+</div>
+
+<div class="span-24 ">
+  <p>Find how much you <strong>Save!</strong> When you subscribe to SingTel's mio Plan</p>
+</div>
+
+
+<div class="span-12 colborder append-bottom">
+<table summary="mio Plan Calcuation"  border="0" cellspacing="0" cellpadding="0">
+  <caption><em>Select Your Price Plan</em></caption>
+  <thead>
+  <tr>
+    <th ></th>
+    <th >Mobile Plan</th>
+    <th >Broadband</th>
+    <th >Fixed Line</th>
+    <th >Total Subscription</th>
+  </tr>
+  </thead>
+  <tr>
+     <td></td>
+    <%= form_tag ({:action => :result, :remote => true })%>
+    <td><%= select_tag "pp01", options_for_select(['iOne Plus', 'iTwo Value', 'iTwo Plus', 'iThree Plus', 'Flexi Lite', 'Flexi', 'Flexi Plus'], params[:pp01])%></td>
+    <td><%= select_tag "bb", options_for_select(["6 Mbps", "10 Mbps", "15 Mbps"], params[:bb]) %></td>
+    <td><%= select_tag "fline", options_for_select(["Analog", "mio Voice"], params[:fline]) %></td>
+  </tr>
+  <tr>
+    <td>Subscription Fee</td>
+    <td><%= number_to_currency(@ppsf01) %></td>
+    <td><%= number_to_currency(@bbsf) %></td>
+    <td><%= number_to_currency(@flinesf) %></td>
+    <td><%= number_to_currency(@ttsf0) %></td>
+  </tr>
+</table>
+  <div class="prepend-1 span-3">
+<%= submit_tag("Calculate") %>
+  </div>
+<div class="span-2">
+<%= button_to "Reset", {:action => 'index'}%>
+</div>
+  <div class="span-5 last">
+<%= @result %>
+  </div>
+  </div>
+
+<hr />
+
+
+<div class="span-13">
+  <table summary="mio Plan Multi line discount"  border="0" cellspacing="0" cellpadding="0">
+    <caption><em>Calculate your mio Plan multi line discount </em>
+    <%= form_tag ({:action => :mld, :remote => true })%>
+        Select the Number of Mobile Lines:
+     <%= select_tag "lines", options_for_select(2..5, params[:lines])%>
+     <%="Discount on Each Subscription: #{@linedis}%" %>
+ </caption>
+   <thead>
+  <tr>
+    <th >Mobile Lines</th>
+    <th class="span-2">2</th>
+    <th class="span-2">3</th>
+    <th class="span-2">4</th>
+    <th class="span-2">5</th>
+    <th class="span-3 last">Total Subscription</th>
+  </tr>
+  </thead>
+  <tr>
+    <td>Price Plan</td>
+    <td><%= select_tag "pp1", options_for_select(["", 'iOne Plus', 'iTwo Value', 'iTwo Plus', 'iThree Plus', 'Flexi Lite', 'Flexi', 'Flexi Plus'], params[:pp1])%></td>
+    <td><%= select_tag "pp2", options_for_select(["", 'iOne Plus', 'iTwo Value', 'iTwo Plus', 'iThree Plus', 'Flexi Lite', 'Flexi', 'Flexi Plus'], params[:pp2])%></td>
+    <td><%= select_tag "pp3", options_for_select(["", 'iOne Plus', 'iTwo Value', 'iTwo Plus', 'iThree Plus', 'Flexi Lite', 'Flexi', 'Flexi Plus'], params[:pp3])%></td>
+    <td><%= select_tag "pp4", options_for_select(["", 'iOne Plus', 'iTwo Value', 'iTwo Plus', 'iThree Plus', 'Flexi Lite', 'Flexi', 'Flexi Plus'], params[:pp4])%></td>
+    
+  </tr>
+  <tr>
+    <td>Subscription Fee</td>
+    <td><%= number_to_currency(@ppsf1) %></td>
+    <td><%= number_to_currency(@ppsf2) %></td>
+    <td><%= number_to_currency(@ppsf3) %></td>
+    <td><%= number_to_currency(@ppsf4) %></td>
+    <td><%= number_to_currency(@ttsf) %></td>
+  </tr>
+  <tr>
+    <td>After Discount</td>
+    <td><%= number_to_currency(@ppad1) %></td>
+    <td><%= number_to_currency(@ppad2) %></td>
+    <td><%= number_to_currency(@ppad3) %></td>
+    <td><%= number_to_currency(@ppad4) %></td>
+    <td><%= number_to_currency(@ttad) %></td>
+  </tr>
+  <tr>
+    <td>Savings</td>
+    <td><%= number_to_currency(@pps1)  %></td>
+    <td><%= number_to_currency(@pps2)  %></td>
+    <td><%= number_to_currency(@pps3)  %></td>
+    <td><%= number_to_currency(@pps4)  %></td>
+    <td> <%= number_to_currency(@tts) %></td>
+  </tr>
+</table>
+  <div class="prepend-1 last append-bottom"
+<%= submit_tag("Calculate") %>
+</div>
+</div>

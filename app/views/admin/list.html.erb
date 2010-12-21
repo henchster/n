@@ -1,0 +1,10 @@
+<%= link_to("Add New Mobilephone", {:action => 'new'}) %>
+
+<hr />
+<%  @mobilephone.each do |m| %>
+<%= link_to m.modelname, :action => 'show', :id => m.id %>
+<%= link_to("Edit", {:action => 'edit', :id => m.id})  %>
+<%= link_to("Delete", {:action => 'delete', :id => m.id})  %>
+<%= m.updated_at %>
+
+<% end %>
