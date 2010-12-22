@@ -1,73 +1,92 @@
-<div class="span-24">
-<div class="span-8 colborder">
-  <div class="span-3">
-<%= image_tag(@product.image_url) %></div>
-  <div class="span-3 box">
-    <strong><%=  @product.modelname %></strong><br/>
+<%= link_to("Back to store", {:action => 'index'})  %>
+<hr/>
+<div class="span-24 last">
+  
+<div class="span-7 colborder">
+ 
+  <div class="box center"><strong><%=  @product.modelname %></strong><br/>
 Color:
 <%=  @product.color %></div>
+  <div class="center"><%= image_tag(@product.image_url) %></div>
+  
 </div>
 
 <div class="span-13 last">
 <table summary="Details"  border="0" cellspacing="0" cellpadding="0">
-  <caption><em><%= "#{@product.modelname} Product Specifications:" %></em></caption>
-  <thead>
+  <caption><strong><%= "Product Specifications:" %></strong></caption>
+ 
   <tr>
     <th>General:</th>
     <td>Network:</td>
-    <td><%= @product.gnetwork %></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><%= "#{@product.gnetwork} Phone"%></td>
   </tr>
   <tr>
     <th>Memory:</th>
     <td>Internal:</td>
-    <td><%= @product.minternal %></td>
     <td>Card Slot:</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><%= @product.minternal %></td>
     <td><%= @product.mcardslot %></td>
   </tr>
   <tr>
      <th>Data:</th>
      <td>WLAN:</td>
-     <td><%= @product.dwlan %></td>
      <td>Bluetooth:</td>
-     <td><%= @product.dbluetooth %></td>
      <td>USB:</td>
+  </tr>
+  <tr>
+    <td></td>
+     <td><%= @product.dwlan %></td>
+     <td><%= @product.dbluetooth %></td>
      <td><%= @product.dusb %></td>
   </tr>
   <tr>
     <th>Camera:</th>
-    <td>Primary:</thd>
-    <td><%= @product.cprimary %></td>
+    <td>Primary:</td>
     <td>Video:</td>
-    <td><%= @product.cvideo %></td>
     <td>Secondary:</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><%= @product.cprimary %></td>
+    <td><%= @product.cvideo %></td>
     <td><%= @product.csecondary %></td>
   </tr>
   <tr>
     <th>Features:</th>
     <td>OS:</td>
-    <td><%= @product.fos %></td>
     <td>Radio:</td>
-    <td><%= @product.fradio %></td>
     <td>Java:</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><%= @product.fos %></td>
+    <td><%= @product.fradio %></td>
     <td><%= @product.fjava %></td>
   </tr>
   <tr>
     <th>Battery</th>
     <td><%= @product.battery %></td>
   </tr>
+  </table>
+  <table summary="Details"  border="0" cellspacing="0" cellpadding="0">
+      <caption><strong><%= "Price" %></strong></caption>
+ <thead>
+<tr>
+  <th>iOne Plus</th>
+  <th>iTwo Value</th>
+  <th>iTwo Plus</th>
+  <th>iThree Plus</th>
+  <th>Flexi Lite</th>
+  <th>Flexi Value</th>
+  <th>Flexi Plus</th>
+</tr>
 </thead>
-<tr>
-<th>Price</th>
-</tr>
-<tr>
-  <td>iOne Plus</td>
-  <td>iTwo Value</td>
-  <td>iTwo Plus</td>
-  <td>iThree Plus</td>
-  <td>Flexi Lite</td>
-  <td>Flexi Value</td>
-  <td>Flexi Plus</td>
-</tr>
 <tr>
   <td><%= number_to_currency(@product.iop) %></td>
   <td><%= number_to_currency(@product.itv) %></td>
