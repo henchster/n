@@ -14,11 +14,18 @@
 
 <hr />
 
-<div class="span-5 colborder">
+<div class="span-24">
   <% @productlists.each do |p| %>
+<div class="span-4 colborder box">
+  <div class="span-2 ">
     <%= image_tag(p.image_url, :size => "60x107") %>
-    <%= link_to p.modelname, :action => 'show', :id => p.id %>
+    </div>
+  <div class="span-2 last">
+    <p><strong><%= p.modelname %></strong></p>
+    <%= link_to "Full Details", :action => 'show', :id => p.id %>
     <%= "Price From: #{number_to_currency(p.iop)}" %>
-    <%=  %>
+    </div>
+    </div>
   <% end %>
+
 </div>

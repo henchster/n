@@ -19220,3 +19220,938 @@ Started GET "/miohome" for 127.0.0.1 at 2010-12-21 20:52:19 +0800
   Processing by MiohomeController#index as HTML
 Rendered miohome/index.html.erb within layouts/application (8.0ms)
 Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/miohome" for 127.0.0.1 at 2010-12-22 12:54:50 +0800
+  Processing by MiohomeController#index as HTML
+Rendered miohome/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/miohome/mld?remote=true" for 127.0.0.1 at 2010-12-22 12:55:08 +0800
+  Processing by MiohomeController#mld as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zx4M/s1PwVaWTRyrwT51FFMshTZkP4vH9vmzfKpyLT8=", "lines"=>"5", "pp1"=>"iTwo Plus", "pp2"=>"Flexi Lite", "pp3"=>"iTwo Plus", "pp4"=>"Flexi Lite", "pp5"=>"Flexi Plus", "commit"=>"Calculate", "remote"=>"true"}
+Rendered miohome/index.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 90ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-12-22 12:55:17 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mioplan" for 127.0.0.1 at 2010-12-22 12:55:26 +0800
+  Processing by MioplanController#index as HTML
+Rendered mioplan/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 12:58:31 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mSQL (61.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (128.0ms)
+Completed 200 OK in 647ms (Views: 142.0ms | ActiveRecord: 62.0ms)
+
+
+Started GET "/images/apple/ip416gbbk.jpg" for 127.0.0.1 at 2010-12-22 12:58:31 +0800
+
+ActionController::RoutingError (No route matches "/images/apple/ip416gbbk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/apple/ip416gbbk.jpg" for 127.0.0.1 at 2010-12-22 12:58:33 +0800
+
+ActionController::RoutingError (No route matches "/images/apple/ip416gbbk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/store/show/1" for 127.0.0.1 at 2010-12-22 12:58:39 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (83.0ms)
+Completed   in 140ms
+
+ActionView::Template::Error (undefined method `mobileprofile' for #<Mobiledata:0x45f1ea8>):
+    16:     </tr>
+    17:   <tr>
+    18:     <th>Network 2G</th>
+    19:   <td><%= @product.mobileprofile.gtwognetwork %></td>
+    20:   <th>Network 3G</th>
+    21: <td><%= @product.mobileprofile.gthreegnetwork %></td>
+    22: </tr>
+  app/views/store/show.html.erb:19:in `_app_views_store_show_html_erb___100276958_36601260_230569855'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.0ms)
+
+
+Started GET "/images/apple/ip416gbbk.jpg" for 127.0.0.1 at 2010-12-22 12:58:40 +0800
+
+ActionController::RoutingError (No route matches "/images/apple/ip416gbbk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2010-12-22 12:58:42 +0800
+  Processing by AdminController#index as HTML
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC
+Rendered admin/list.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 70ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/edit/1" for 127.0.0.1 at 2010-12-22 12:58:45 +0800
+  Processing by AdminController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1[0m
+Rendered admin/edit.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 82ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/update/1" for 127.0.0.1 at 2010-12-22 13:10:01 +0800
+  Processing by AdminController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zx4M/s1PwVaWTRyrwT51FFMshTZkP4vH9vmzfKpyLT8=", "mobilephone"=>{"modelname"=>"iPhone 4 16Gb", "brand"=>"Apple", "posid"=>"api416gbbk", "quantity"=>"2", "image_url"=>"api4bk.jpg", "gnetwork"=>"3g", "minternal"=>"16Gb", "mcardslot"=>"Non", "dwlan"=>"Wi-Fi 802.11 b/g/n", "dbluetooth"=>"Yes, v2.1 with A2DP", "dusb"=>"Yes, v2.0", "camera"=>"1", "cprimary"=>"5 MP, 2592 x 1944 pixels, autofocus, LED flash", "cvideo"=>"Yes, 720p@30fps, LED video light", "csecondary"=>"VGA", "fos"=>"iOs 4", "fradio"=>"No", "fjava"=>"No", "battery"=>"Li-Po 1420mAh", "formfactor"=>"Slate", "iosv"=>"848", "iop"=>"748", "itv"=>"398", "itp"=>"99", "ithp"=>"0", "fl"=>"480", "fv"=>"210", "fp"=>"0", "c100"=>"618", "p700"=>"99", "p1500"=>"0", "nocontract"=>"1999"}, "commit"=>"Update", "id"=>"1"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (45.0ms)[0m  UPDATE `mobiledatas` SET `c100` = 618.0, `dbluetooth` = 'Yes, v2.1 with A2DP', `dusb` = 'Yes, v2.0', `fl` = 480.0, `fp` = 0.0, `fv` = 210.0, `image_url` = 'api4bk.jpg', `iop` = 748.0, `iosv` = 848.0, `ithp` = 0.0, `itp` = 99.0, `itv` = 398.0, `nocontract` = 1999.0, `p1500` = 0.0, `p700` = 99.0, `updated_at` = '2010-12-22 05:10:01' WHERE (`mobiledatas`.`id` = 1)
+  [1m[36mSQL (42.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/admin/show/1
+Completed 302 Found in 172ms
+
+
+Started GET "/admin/show/1" for 127.0.0.1 at 2010-12-22 13:10:01 +0800
+  Processing by AdminController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1
+Rendered store/show.html.erb within layouts/application (51.0ms)
+Completed   in 88ms
+
+ActionView::Template::Error (undefined method `mobileprofile' for #<Mobiledata:0x2ba5308>):
+    16:     </tr>
+    17:   <tr>
+    18:     <th>Network 2G</th>
+    19:   <td><%= @product.mobileprofile.gtwognetwork %></td>
+    20:   <th>Network 3G</th>
+    21: <td><%= @product.mobileprofile.gthreegnetwork %></td>
+    22: </tr>
+  app/views/store/show.html.erb:19:in `_app_views_store_show_html_erb___100276958_22716996_230569855'
+  app/controllers/admin_controller.rb:14:in `show'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/admin/list" for 127.0.0.1 at 2010-12-22 13:10:32 +0800
+  Processing by AdminController#list as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC[0m
+Rendered admin/list.html.erb within layouts/application (85.0ms)
+Completed 200 OK in 117ms (Views: 103.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/edit/1" for 127.0.0.1 at 2010-12-22 13:10:35 +0800
+  Processing by AdminController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1
+Rendered admin/edit.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 103ms (Views: 83.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/list" for 127.0.0.1 at 2010-12-22 13:10:36 +0800
+  Processing by AdminController#list as HTML
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC[0m
+Rendered admin/list.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 83ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 13:10:38 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (59.0ms)
+Completed 200 OK in 96ms (Views: 74.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/api4bk.jpg" for 127.0.0.1 at 2010-12-22 13:10:38 +0800
+
+ActionController::RoutingError (No route matches "/images/api4bk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/api4bk.jpg" for 127.0.0.1 at 2010-12-22 13:10:44 +0800
+
+ActionController::RoutingError (No route matches "/images/api4bk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/public/images" for 127.0.0.1 at 2010-12-22 13:12:40 +0800
+
+ActionController::RoutingError (No route matches "/public/images"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/public/images/15mioplan.jpg" for 127.0.0.1 at 2010-12-22 13:12:55 +0800
+
+ActionController::RoutingError (No route matches "/public/images/15mioplan.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-12-22 13:13:00 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/api4bk.jpg" for 127.0.0.1 at 2010-12-22 13:13:16 +0800
+
+ActionController::RoutingError (No route matches "/images/api4bk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2010-12-22 13:14:26 +0800
+  Processing by AdminController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC[0m
+Rendered admin/list.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 62ms (Views: 48.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/edit/1" for 127.0.0.1 at 2010-12-22 13:14:29 +0800
+  Processing by AdminController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1
+Rendered admin/edit.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 79ms (Views: 60.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/admin/update/1" for 127.0.0.1 at 2010-12-22 13:14:36 +0800
+  Processing by AdminController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zx4M/s1PwVaWTRyrwT51FFMshTZkP4vH9vmzfKpyLT8=", "mobilephone"=>{"modelname"=>"iPhone 4 16Gb", "brand"=>"Apple", "posid"=>"api416gbbk", "quantity"=>"2", "image_url"=>"image/api4bk.jpg", "gnetwork"=>"3g", "minternal"=>"16Gb", "mcardslot"=>"Non", "dwlan"=>"Wi-Fi 802.11 b/g/n", "dbluetooth"=>"Yes, v2.1 with A2DP", "dusb"=>"Yes, v2.0", "camera"=>"1", "cprimary"=>"5 MP, 2592 x 1944 pixels, autofocus, LED flash", "cvideo"=>"Yes, 720p@30fps, LED video light", "csecondary"=>"VGA", "fos"=>"iOs 4", "fradio"=>"No", "fjava"=>"No", "battery"=>"Li-Po 1420mAh", "formfactor"=>"Slate", "iosv"=>"848.0", "iop"=>"748.0", "itv"=>"398.0", "itp"=>"99.0", "ithp"=>"0.0", "fl"=>"480.0", "fv"=>"210.0", "fp"=>"0.0", "c100"=>"618.0", "p700"=>"99.0", "p1500"=>"0.0", "nocontract"=>"1999.0"}, "commit"=>"Update", "id"=>"1"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE `mobiledatas` SET `image_url` = 'image/api4bk.jpg', `updated_at` = '2010-12-22 05:14:36' WHERE (`mobiledatas`.`id` = 1)[0m
+  [1m[35mSQL (57.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/admin/show/1
+Completed 302 Found in 110ms
+
+
+Started GET "/admin/show/1" for 127.0.0.1 at 2010-12-22 13:14:36 +0800
+  Processing by AdminController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (30.0ms)
+Completed   in 69ms
+
+ActionView::Template::Error (undefined method `mobileprofile' for #<Mobiledata:0x4412fa0>):
+    16:     </tr>
+    17:   <tr>
+    18:     <th>Network 2G</th>
+    19:   <td><%= @product.mobileprofile.gtwognetwork %></td>
+    20:   <th>Network 3G</th>
+    21: <td><%= @product.mobileprofile.gthreegnetwork %></td>
+    22: </tr>
+  app/views/store/show.html.erb:19:in `_app_views_store_show_html_erb___100276958_35590068_230569855'
+  app/controllers/admin_controller.rb:14:in `show'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-12-22 13:14:38 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 13:14:40 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 71ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/image/api4bk.jpg" for 127.0.0.1 at 2010-12-22 13:14:40 +0800
+
+ActionController::RoutingError (No route matches "/images/image/api4bk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 13:14:42 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 70ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/image/api4bk.jpg" for 127.0.0.1 at 2010-12-22 13:14:43 +0800
+
+ActionController::RoutingError (No route matches "/images/image/api4bk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/image/api4bk.jpg" for 127.0.0.1 at 2010-12-22 13:14:46 +0800
+
+ActionController::RoutingError (No route matches "/images/image/api4bk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started POST "/admin/update/1" for 127.0.0.1 at 2010-12-22 13:15:05 +0800
+  Processing by AdminController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zx4M/s1PwVaWTRyrwT51FFMshTZkP4vH9vmzfKpyLT8=", "mobilephone"=>{"modelname"=>"iPhone 4 16Gb", "brand"=>"Apple", "posid"=>"api416gbbk", "quantity"=>"2", "image_url"=>"images/api4bk.jpg", "gnetwork"=>"3g", "minternal"=>"16Gb", "mcardslot"=>"Non", "dwlan"=>"Wi-Fi 802.11 b/g/n", "dbluetooth"=>"Yes, v2.1 with A2DP", "dusb"=>"Yes, v2.0", "camera"=>"1", "cprimary"=>"5 MP, 2592 x 1944 pixels, autofocus, LED flash", "cvideo"=>"Yes, 720p@30fps, LED video light", "csecondary"=>"VGA", "fos"=>"iOs 4", "fradio"=>"No", "fjava"=>"No", "battery"=>"Li-Po 1420mAh", "formfactor"=>"Slate", "iosv"=>"848.0", "iop"=>"748.0", "itv"=>"398.0", "itp"=>"99.0", "ithp"=>"0.0", "fl"=>"480.0", "fv"=>"210.0", "fp"=>"0.0", "c100"=>"618.0", "p700"=>"99.0", "p1500"=>"0.0", "nocontract"=>"1999.0"}, "commit"=>"Update", "id"=>"1"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE `mobiledatas` SET `image_url` = 'images/api4bk.jpg', `updated_at` = '2010-12-22 05:15:05' WHERE (`mobiledatas`.`id` = 1)
+  [1m[36mSQL (53.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/admin/show/1
+Completed 302 Found in 124ms
+
+
+Started GET "/admin/show/1" for 127.0.0.1 at 2010-12-22 13:15:06 +0800
+  Processing by AdminController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed   in 71ms
+
+ActionView::Template::Error (undefined method `mobileprofile' for #<Mobiledata:0x40189c8>):
+    16:     </tr>
+    17:   <tr>
+    18:     <th>Network 2G</th>
+    19:   <td><%= @product.mobileprofile.gtwognetwork %></td>
+    20:   <th>Network 3G</th>
+    21: <td><%= @product.mobileprofile.gthreegnetwork %></td>
+    22: </tr>
+  app/views/store/show.html.erb:19:in `_app_views_store_show_html_erb___100276958_33552780_230569855'
+  app/controllers/admin_controller.rb:14:in `show'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.0ms)
+
+
+Started GET "/admin/" for 127.0.0.1 at 2010-12-22 13:15:08 +0800
+  Processing by AdminController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC[0m
+Rendered admin/list.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 61ms (Views: 48.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 13:16:07 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 88ms (Views: 50.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/images/api4bk.jpg" for 127.0.0.1 at 2010-12-22 13:16:08 +0800
+
+ActionController::RoutingError (No route matches "/images/images/api4bk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/images/api4bk.jpg" for 127.0.0.1 at 2010-12-22 13:16:09 +0800
+
+ActionController::RoutingError (No route matches "/images/images/api4bk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/images/api4bk.jpg" for 127.0.0.1 at 2010-12-22 13:16:12 +0800
+
+ActionController::RoutingError (No route matches "/images/images/api4bk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/images/api4bk.jpg" for 127.0.0.1 at 2010-12-22 13:17:00 +0800
+
+ActionController::RoutingError (No route matches "/images/api4bk.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2010-12-22 13:17:12 +0800
+  Processing by AdminController#index as HTML
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC[0m
+Rendered admin/list.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 66ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/edit/1" for 127.0.0.1 at 2010-12-22 13:17:15 +0800
+  Processing by AdminController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1
+Rendered admin/edit.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 108ms (Views: 89.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/admin/update/1" for 127.0.0.1 at 2010-12-22 13:17:18 +0800
+  Processing by AdminController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zx4M/s1PwVaWTRyrwT51FFMshTZkP4vH9vmzfKpyLT8=", "mobilephone"=>{"modelname"=>"iPhone 4 16Gb", "brand"=>"Apple", "posid"=>"api416gbbk", "quantity"=>"2", "image_url"=>"apple/api4bk.jpg", "gnetwork"=>"3g", "minternal"=>"16Gb", "mcardslot"=>"Non", "dwlan"=>"Wi-Fi 802.11 b/g/n", "dbluetooth"=>"Yes, v2.1 with A2DP", "dusb"=>"Yes, v2.0", "camera"=>"1", "cprimary"=>"5 MP, 2592 x 1944 pixels, autofocus, LED flash", "cvideo"=>"Yes, 720p@30fps, LED video light", "csecondary"=>"VGA", "fos"=>"iOs 4", "fradio"=>"No", "fjava"=>"No", "battery"=>"Li-Po 1420mAh", "formfactor"=>"Slate", "iosv"=>"848.0", "iop"=>"748.0", "itv"=>"398.0", "itp"=>"99.0", "ithp"=>"0.0", "fl"=>"480.0", "fv"=>"210.0", "fp"=>"0.0", "c100"=>"618.0", "p700"=>"99.0", "p1500"=>"0.0", "nocontract"=>"1999.0"}, "commit"=>"Update", "id"=>"1"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mUPDATE `mobiledatas` SET `image_url` = 'apple/api4bk.jpg', `updated_at` = '2010-12-22 05:17:18' WHERE (`mobiledatas`.`id` = 1)[0m
+  [1m[35mSQL (54.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/admin/show/1
+Completed 302 Found in 129ms
+
+
+Started GET "/admin/show/1" for 127.0.0.1 at 2010-12-22 13:17:18 +0800
+  Processing by AdminController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (31.0ms)
+Completed   in 69ms
+
+ActionView::Template::Error (undefined method `mobileprofile' for #<Mobiledata:0x4134858>):
+    16:     </tr>
+    17:   <tr>
+    18:     <th>Network 2G</th>
+    19:   <td><%= @product.mobileprofile.gtwognetwork %></td>
+    20:   <th>Network 3G</th>
+    21: <td><%= @product.mobileprofile.gthreegnetwork %></td>
+    22: </tr>
+  app/views/store/show.html.erb:19:in `_app_views_store_show_html_erb___100276958_33933432_230569855'
+  app/controllers/admin_controller.rb:14:in `show'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/admin/" for 127.0.0.1 at 2010-12-22 13:17:31 +0800
+  Processing by AdminController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC
+Rendered admin/list.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 101ms (Views: 87.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 13:17:32 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 72ms (Views: 52.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/new" for 127.0.0.1 at 2010-12-22 13:27:52 +0800
+  Processing by AdminController#new as HTML
+Rendered admin/new.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 78ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/create" for 127.0.0.1 at 2010-12-22 14:09:44 +0800
+  Processing by AdminController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zx4M/s1PwVaWTRyrwT51FFMshTZkP4vH9vmzfKpyLT8=", "mobilephone"=>{"modelname"=>"HTC WildFire", "brand"=>"HTC", "posid"=>"htc-a3333", "quantity"=>"2", "image_url"=>"htc/htc-a3333.jpg", "gnetwork"=>"3G", "minternal"=>"ROM: 512 MB RAM: 384 MB", "mcardslot"=>"microSD, Upto 32Gb", "dwlan"=>"Wi-Fi 802.11 b/g", "dbluetooth"=>"Yes v2.1 with A2DP", "dusb"=>"Yes, microUSB v2.0", "camera"=>"1", "cprimary"=>"5 MP, autofocus, LED flash", "cvideo"=>"Yes", "csecondary"=>"No", "fos"=>"Android OS, v2.1 (Eclair)", "fradio"=>"Stereo FM radio", "fjava"=>"Via third party application", "battery"=>"Li-Ion 1300 mAh", "formfactor"=>"Slate", "iosv"=>"298", "iop"=>"198", "itv"=>"98", "itp"=>"0", "ithp"=>"0", "fl"=>"98", "fv"=>"0", "fp"=>"0", "c100"=>"198", "p700"=>"0", "p1500"=>"0", "nocontract"=>"498"}, "commit"=>"Create"}
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `mobiledatas`[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO `mobiledatas` (`battery`, `brand`, `c100`, `camera`, `color`, `cprimary`, `created_at`, `csecondary`, `cvideo`, `dbluetooth`, `dusb`, `dwlan`, `fjava`, `fl`, `formfactor`, `fos`, `fp`, `fpr`, `fradio`, `fv`, `gnetwork`, `image_url`, `iop`, `iosv`, `ithp`, `itp`, `itv`, `mcardslot`, `minternal`, `modelname`, `nocontract`, `p1500`, `p700`, `posid`, `quantity`, `updated_at`) VALUES ('Li-Ion 1300 mAh', 'HTC', 198.0, 1, NULL, '5 MP, autofocus, LED flash', '2010-12-22 06:09:44', 'No', 'Yes', 'Yes v2.1 with A2DP', 'Yes, microUSB v2.0', 'Wi-Fi 802.11 b/g', 'Via third party application', 98.0, 'Slate', 'Android OS, v2.1 (Eclair)', 0.0, NULL, 'Stereo FM radio', 0.0, '3G', 'htc/htc-a3333.jpg', 198.0, 298.0, 0.0, 0.0, 98.0, 'microSD, Upto 32Gb', 'ROM: 512 MB RAM: 384 MB', 'HTC WildFire', 498.0, 0.0, 0.0, 'htc-a3333', 2, '2010-12-22 06:09:44')
+  [1m[36mSQL (48.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/admin/list
+Completed 302 Found in 127ms
+
+
+Started GET "/admin/list" for 127.0.0.1 at 2010-12-22 14:09:44 +0800
+  Processing by AdminController#list as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC
+Rendered admin/list.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 66ms (Views: 52.0ms | ActiveRecord: 53.0ms)
+
+
+Started GET "/admin/edit/2" for 127.0.0.1 at 2010-12-22 14:10:27 +0800
+  Processing by AdminController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered admin/edit.html.erb within layouts/application (47.0ms)
+Completed 200 OK in 82ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:14:03 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (2.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 76ms (Views: 55.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:14:33 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 70ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:14:37 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 77ms (Views: 58.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:15:56 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 72ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:16:11 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 72ms (Views: 52.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:16:19 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 75ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:16:34 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 73ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:16:45 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 92ms (Views: 73.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:17:59 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 75ms (Views: 55.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:18:08 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 74ms (Views: 53.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:18:15 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 72ms (Views: 52.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:18:16 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 76ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:18:25 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 71ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:18:31 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 95ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:18:39 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 117ms (Views: 96.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:18:49 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (59.0ms)
+Completed 200 OK in 93ms (Views: 74.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:19:14 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 72ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:19:46 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 73ms (Views: 53.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:19:54 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 74ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:20:01 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 133ms (Views: 112.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:20:11 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (57.0ms)
+Completed 200 OK in 93ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:20:35 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 85ms (Views: 64.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:20:42 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 74ms (Views: 53.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:20:47 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 70ms (Views: 50.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:20:55 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 75ms (Views: 54.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:21:07 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 108ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:22:48 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 73ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:22:56 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 74ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:26:10 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 74ms (Views: 53.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:26:40 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 72ms (Views: 52.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/list" for 127.0.0.1 at 2010-12-22 14:30:59 +0800
+  Processing by AdminController#list as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC
+Rendered admin/list.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 74ms (Views: 60.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/new" for 127.0.0.1 at 2010-12-22 14:44:02 +0800
+  Processing by AdminController#new as HTML
+Rendered admin/new.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 90ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/list" for 127.0.0.1 at 2010-12-22 14:44:21 +0800
+  Processing by AdminController#list as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC[0m
+Rendered admin/list.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 66ms (Views: 53.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/new" for 127.0.0.1 at 2010-12-22 14:44:24 +0800
+  Processing by AdminController#new as HTML
+Rendered admin/new.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 74ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/new" for 127.0.0.1 at 2010-12-22 14:45:01 +0800
+  Processing by AdminController#new as HTML
+Rendered admin/new.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 93ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/create" for 127.0.0.1 at 2010-12-22 14:48:12 +0800
+  Processing by AdminController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zx4M/s1PwVaWTRyrwT51FFMshTZkP4vH9vmzfKpyLT8=", "mobilephone"=>{"modelname"=>"HTC Desire", "brand"=>"HTC", "posid"=>"htc-a8181", "quantity"=>"3", "image_url"=>"htc/htc-a8181.jpg", "gnetwork"=>"3G", "minternal"=>"576 MB RAM; 512 MB ROM", "mcardslot"=>"microSD, up to 32GB, 4GB included", "dwlan"=>"Wi-Fi 802.11 b/g", "dbluetooth"=>"Yes v2.1 with A2DP", "dusb"=>"Yes, microUSB v2.0", "camera"=>"1", "cprimary"=>"5 MP, autofocus, LED flash", "cvideo"=>"Yes, WVGA (800x480 pixels) @ 15fps, 720p@30fps via Android 2.2 (Froyo) update", "csecondary"=>"No", "fos"=>"Android OS, v2.1 (Eclair), upgradable to Android 2.2 (Froyo)", "fradio"=>"Stereo FM radio", "fjava"=>"Via third party application", "battery"=>"Li-Ion 1400 mAh", "formfactor"=>"Slate", "iosv"=>"0", "iop"=>"0", "itv"=>"0", "itp"=>"0", "ithp"=>"0", "fl"=>"0", "fv"=>"0", "fp"=>"0", "c100"=>"0", "p700"=>"0", "p1500"=>"0", "nocontract"=>"0"}, "commit"=>"Create"}
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `mobiledatas` (`battery`, `brand`, `c100`, `camera`, `color`, `cprimary`, `created_at`, `csecondary`, `cvideo`, `dbluetooth`, `dusb`, `dwlan`, `fjava`, `fl`, `formfactor`, `fos`, `fp`, `fpr`, `fradio`, `fv`, `gnetwork`, `image_url`, `iop`, `iosv`, `ithp`, `itp`, `itv`, `mcardslot`, `minternal`, `modelname`, `nocontract`, `p1500`, `p700`, `posid`, `quantity`, `updated_at`) VALUES ('Li-Ion 1400 mAh', 'HTC', 0.0, 1, NULL, '5 MP, autofocus, LED flash', '2010-12-22 06:48:12', 'No', 'Yes, WVGA (800x480 pixels) @ 15fps, 720p@30fps via Android 2.2 (Froyo) update', 'Yes v2.1 with A2DP', 'Yes, microUSB v2.0', 'Wi-Fi 802.11 b/g', 'Via third party application', 0.0, 'Slate', 'Android OS, v2.1 (Eclair), upgradable to Android 2.2 (Froyo)', 0.0, NULL, 'Stereo FM radio', 0.0, '3G', 'htc/htc-a8181.jpg', 0.0, 0.0, 0.0, 0.0, 0.0, 'microSD, up to 32GB, 4GB included', '576 MB RAM; 512 MB ROM', 'HTC Desire', 0.0, 0.0, 0.0, 'htc-a8181', 3, '2010-12-22 06:48:12')[0m
+  [1m[35mSQL (48.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/admin/list
+Completed 302 Found in 103ms
+
+
+Started GET "/admin/list" for 127.0.0.1 at 2010-12-22 14:48:12 +0800
+  Processing by AdminController#list as HTML
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC[0m
+Rendered admin/list.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 68ms (Views: 56.0ms | ActiveRecord: 49.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:48:54 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 93ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:48:55 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:48:56 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/store/free" for 127.0.0.1 at 2010-12-22 14:49:27 +0800
+  Processing by StoreController#free as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100) AND (`mobiledatas`.`iop` = 0)[0m
+Rendered store/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 71ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:49:28 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:49:29 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/store/htc" for 127.0.0.1 at 2010-12-22 14:49:31 +0800
+  Processing by StoreController#htc as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`brand` = 'HTC') AND (`mobiledatas`.`quantity` BETWEEN 1 AND 10)
+Rendered store/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 74ms (Views: 52.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/htc" for 127.0.0.1 at 2010-12-22 14:49:31 +0800
+  Processing by StoreController#htc as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`brand` = 'HTC') AND (`mobiledatas`.`quantity` BETWEEN 1 AND 10)[0m
+Rendered store/index.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 73ms (Views: 53.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:49:32 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:49:33 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:49:34 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 76ms (Views: 55.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:49:34 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/admin/edit/3" for 127.0.0.1 at 2010-12-22 14:49:40 +0800
+  Processing by AdminController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 3) LIMIT 1[0m
+Rendered admin/edit.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 106ms (Views: 85.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/list" for 127.0.0.1 at 2010-12-22 14:49:47 +0800
+  Processing by AdminController#list as HTML
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` ORDER BY mobiledatas.brand ASC
+Rendered admin/list.html.erb within layouts/application (112.0ms)
+Completed 200 OK in 140ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/edit/3" for 127.0.0.1 at 2010-12-22 14:52:18 +0800
+  Processing by AdminController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 3) LIMIT 1[0m
+Rendered admin/edit.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 80ms (Views: 60.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:52:35 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (59.0ms)
+Completed 200 OK in 132ms (Views: 111.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:52:35 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:52:36 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:52:38 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 100ms (Views: 78.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:52:38 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:52:38 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:52:39 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 116ms (Views: 95.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:52:40 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:52:40 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/htc/htc-a8181.jpg" for 127.0.0.1 at 2010-12-22 14:52:42 +0800
+
+ActionController::RoutingError (No route matches "/images/htc/htc-a8181.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:53:11 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 73ms (Views: 53.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 14:57:16 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 74ms (Views: 53.0ms | ActiveRecord: 1.0ms)
