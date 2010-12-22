@@ -20155,3 +20155,622 @@ Started GET "/store" for 127.0.0.1 at 2010-12-22 14:57:16 +0800
   [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
 Rendered store/index.html.erb within layouts/application (38.0ms)
 Completed 200 OK in 74ms (Views: 53.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2010-12-22 15:45:33 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (3.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 100ms (Views: 78.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:46:00 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (29.0ms)
+Completed   in 64ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    1: <table summary="Details"  border="0" cellspacing="0" cellpadding="0">
+    2:   <caption><em><%= @product.modelname "Details" %> </em></caption>
+    3:   <%= image_tag(@product.image_url) %>
+    4:   <tr>
+    5: <th><%=  @product.modelname %></th</tr>
+  app/views/store/show.html.erb:2:in `_app_views_store_show_html_erb___100276958_36670344_230569855'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:46:21 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (30.0ms)
+Completed   in 65ms
+
+ActionView::Template::Error (undefined method `fcolor' for #<Mobiledata:0x470d138>):
+    50: <th>Radio</th>
+    51: <td><%= @product.fradio %></td>
+    52: <th>Color</th>
+    53: <td><%= @product.fcolor %></td>
+    54: <th>Java</th>
+    55: <td><%= @product.fjava %></td>
+    56: </tr>
+  app/views/store/show.html.erb:53:in `_app_views_store_show_html_erb___100276958_37240872_230569855'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:46:22 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (30.0ms)
+Completed   in 87ms
+
+ActionView::Template::Error (undefined method `fcolor' for #<Mobiledata:0x471bc40>):
+    50: <th>Radio</th>
+    51: <td><%= @product.fradio %></td>
+    52: <th>Color</th>
+    53: <td><%= @product.fcolor %></td>
+    54: <th>Java</th>
+    55: <td><%= @product.fjava %></td>
+    56: </tr>
+  app/views/store/show.html.erb:53:in `_app_views_store_show_html_erb___100276958_37267332_230569855'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:46:42 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 92ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:48:27 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 69ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:51:04 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 69ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:51:30 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (4.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (43.0ms)
+Completed 200 OK in 109ms (Views: 80.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:51:32 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (3.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 78ms (Views: 54.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:51:33 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 69ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-12-22 15:52:47 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mioplan" for 127.0.0.1 at 2010-12-22 15:52:49 +0800
+  Processing by MioplanController#index as HTML
+Rendered mioplan/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:56:11 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 69ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:58:10 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 72ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 15:59:55 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 70ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:00:34 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 72ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:00:43 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 72ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:01:53 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 71ms (Views: 50.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:02:18 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (3.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 84ms (Views: 60.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:02:20 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 72ms (Views: 50.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:02:41 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 106ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:02:45 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 90ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:02:52 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 109ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:03:01 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 94ms (Views: 74.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:03:08 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 111ms (Views: 90.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:03:50 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 68ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:04:22 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 68ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:04:32 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 72ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:04:39 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (2.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 70ms (Views: 50.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:04:43 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 109ms (Views: 86.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:04:52 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (57.0ms)
+Completed 200 OK in 116ms (Views: 94.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:04:57 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (3.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 114ms (Views: 92.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:05:55 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (2.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 81ms (Views: 55.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:06:29 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 70ms (Views: 50.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:06:49 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 90ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:07:24 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 71ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:07:48 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 80ms (Views: 58.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:10:11 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 71ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:13:58 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 115ms (Views: 91.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:14:40 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 68ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:14:48 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (2.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 76ms (Views: 52.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:15:27 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 71ms (Views: 50.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:15:49 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 90ms (Views: 69.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:15:52 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 112ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:16:10 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 91ms (Views: 70.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:17:50 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (3.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 77ms (Views: 52.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:18:01 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 104ms (Views: 85.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:18:11 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 73ms (Views: 52.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:18:18 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 70ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:18:29 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 107ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:18:42 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 92ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:19:00 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (2.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 76ms (Views: 52.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:19:05 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 72ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:19:11 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 70ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:19:20 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 71ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:19:49 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 91ms (Views: 70.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:19:59 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (0.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 93ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:20:05 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 92ms (Views: 71.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:20:12 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (2.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 101ms (Views: 77.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:20:23 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 68ms (Views: 48.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:20:44 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 69ms (Views: 48.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:21:11 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 69ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:21:21 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 93ms (Views: 73.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:21:29 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 90ms (Views: 70.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:21:35 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 92ms (Views: 71.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:21:48 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 90ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:21:57 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (2.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 80ms (Views: 56.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:22:07 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 69ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:22:09 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 70ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:22:16 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 70ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:22:26 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 71ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:22:34 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMobiledata Load (0.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 70ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/show/2" for 127.0.0.1 at 2010-12-22 16:22:39 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 2) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 70ms (Views: 50.0ms | ActiveRecord: 1.0ms)

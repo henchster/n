@@ -1,85 +1,64 @@
-<table border="1">
-  
-  <%= image_tag(@product.image_url) %>
-  <tr>
-<th><%=  @product.modelname %></th</tr>
-<th>Color:</th>
-<tr>
-<td><%=  @product.color %></td>
-</tr>
-</table>
+<div class="span-24">
+<div class="span-8 colborder">
+  <div class="span-3">
+<%= image_tag(@product.image_url) %></div>
+  <div class="span-3 box">
+    <strong><%=  @product.modelname %></strong><br/>
+Color:
+<%=  @product.color %></div>
+</div>
 
-<table border="1">
-  <th>Product Specifications:</th>
+<div class="span-13 last">
+<table summary="Details"  border="0" cellspacing="0" cellpadding="0">
+  <caption><em><%= "#{@product.modelname} Product Specifications:" %></em></caption>
+  <thead>
   <tr>
     <th>General:</th>
-    </tr>
+    <td>Network:</td>
+    <td><%= @product.gnetwork %></td>
+  </tr>
   <tr>
-    <th>Network 2G</th>
-  <td><%= @product.mobileprofile.gtwognetwork %></td>
-  <th>Network 3G</th>
-<td><%= @product.mobileprofile.gthreegnetwork %></td>
-</tr>
-    <th>Size:</th>
-      <tr>
-        <th>Dimensions:</th>
-<td><%= @product.mobileprofile.sdimensions %></td>
-<th>Weight:</th>
-<td><%= @product.mobileprofile.sweight %></td>
-      </tr>
-<th>Display:</th>
+    <th>Memory:</th>
+    <td>Internal:</td>
+    <td><%= @product.minternal %></td>
+    <td>Card Slot:</td>
+    <td><%= @product.mcardslot %></td>
+  </tr>
+  <tr>
+     <th>Data:</th>
+     <td>WLAN:</td>
+     <td><%= @product.dwlan %></td>
+     <td>Bluetooth:</td>
+     <td><%= @product.dbluetooth %></td>
+     <td>USB:</td>
+     <td><%= @product.dusb %></td>
+  </tr>
+  <tr>
+    <th>Camera:</th>
+    <td>Primary:</thd>
+    <td><%= @product.cprimary %></td>
+    <td>Video:</td>
+    <td><%= @product.cvideo %></td>
+    <td>Secondary:</td>
+    <td><%= @product.csecondary %></td>
+  </tr>
+  <tr>
+    <th>Features:</th>
+    <td>OS:</td>
+    <td><%= @product.fos %></td>
+    <td>Radio:</td>
+    <td><%= @product.fradio %></td>
+    <td>Java:</td>
+    <td><%= @product.fjava %></td>
+  </tr>
+  <tr>
+    <th>Battery</th>
+    <td><%= @product.battery %></td>
+  </tr>
+</thead>
 <tr>
-  <th>Type:</th>
-<td><%= @product.mobileprofile.dtype %></td>
-<th>Size:</th>
-<td><%= @product.mobileprofile.dsize %></td>
-</tr>
-<th>Sound:</th>
-<tr>
-  <th>Alert type:</th>
-<td><%= @product.mobileprofile.salerttype %></td>
-</tr>
-<th>Memory:</th>
-<tr>
-  <th>Internal</th>
-<td><%= @product.mobileprofile.minternal %></td>
- <th>Card Slot</th>
-<td><%= @product.mobileprofile.mcardslot %></td>
-</tr>
-<th>Data:</th>
-<tr>
-  <th>WLAN</th>
-<td><%= @product.mobileprofile.dwlan %></td>
- <th>Bluetooth</th>
-<td><%= @product.mobileprofile.dbluetooth %></td>
- <th>USB</th>
-<td><%= @product.mobileprofile.dusb %></td>
-</tr>
-<th>Camera</th>
-<tr>
-  <th>Primary</th>
-<td><%= @product.mobileprofile.cprimary %></td>
-<th>Video</th>
-<td><%= @product.mobileprofile.cvideo %></td>
-<th>Secondary</th>
-<td><%= @product.mobileprofile.csecondary %></td>
-</tr>
-<th>Features</th>
-<tr>
-  <th>OS</th>
-<td><%= @product.mobileprofile.fos %></td>
-<th>Radio</th>
-<td><%= @product.mobileprofile.fradio %></td>
-<th>Color</th>
-<td><%= @product.mobileprofile.fcolor %></td>
-<th>Java</th>
-<td><%= @product.mobileprofile.fjava %></td>
-</tr>
-<th>Battery</th>
-<tr>
-  <th>:</th>
-<td><%= @product.mobileprofile.battery %></td></tr>
 <th>Price</th>
+</tr>
 <tr>
   <td>iOne Plus</td>
   <td>iTwo Value</td>
@@ -90,15 +69,16 @@
   <td>Flexi Plus</td>
 </tr>
 <tr>
-  <td><%= number_to_currency(@product.mobileprice.iop) %></td>
-  <td><%= number_to_currency(@product.mobileprice.itv) %></td>
-  <td><%= number_to_currency(@product.mobileprice.itp) %></td>
-  <td><%= number_to_currency(@product.mobileprice.ithp) %></td>
-  <td><%= number_to_currency(@product.mobileprice.fl) %></td>
-  <td><%= number_to_currency(@product.mobileprice.fv) %></td>
-  <td><%= number_to_currency(@product.mobileprice.fp) %></td>
+  <td><%= number_to_currency(@product.iop) %></td>
+  <td><%= number_to_currency(@product.itv) %></td>
+  <td><%= number_to_currency(@product.itp) %></td>
+  <td><%= number_to_currency(@product.ithp) %></td>
+  <td><%= number_to_currency(@product.fl) %></td>
+  <td><%= number_to_currency(@product.fv) %></td>
+  <td><%= number_to_currency(@product.fp) %></td>
 </tr>
 
 </table>
+</div>
 
-
+</div>
