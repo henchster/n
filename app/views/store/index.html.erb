@@ -1,22 +1,22 @@
 
   <div id="sub-navigation" class=" span-24 last append-bottom">
     <%= link_to "Apple", :action => 'apple' %>
-    <%= link_to "Blackberry", :action => '' %>
+    <%= link_to "Blackberry", :action => 'blackberry' %>
     <%= link_to "HTC", :action => 'htc' %>
-    <%= link_to "LG", :action => '' %>
-    <%= link_to "Motorala", :action => '' %>
+    <%= link_to "LG", :action => 'lg' %>
+    <%= link_to "Motorola", :action => 'motorola' %>
     <%= link_to "Nokia", :action => 'nokia' %>
     <%= link_to "Samsung", :action => 'samsung' %>
-    <%= link_to "Sony Ericsson", :action => '' %>
+    <%= link_to "Sony Ericsson", :action => 'sonyericsson' %>
     <%= link_to "Free Phone", :action => 'free' %>
     <%= link_to "Non Camera", :action => 'noncam' %>
   </div>
 
 <hr />
 
-<div class="span-24">
+<div class="span-24 last">
   <% @productlists.each do |p| %>
-<div class="span-4 colborder box">
+<div class="span-5 content-box box">
   <div class="span-2 ">
     <%= image_tag(p.image_url, :size => "60x107") %>
     </div>

@@ -5,7 +5,7 @@
 </div>
 
 <hr />
-<div class="span-24 last box">
+<div class="span-23 last specific-box box">
 <a href="#" onclick="Effect.toggle('6mbpsmioplan', 'slide'); return false;"><em>> 6 Mbps</em> mio Plan</a>
 <div id="6mbpsmioplan" style="display:none">
   <div>
@@ -28,12 +28,12 @@
 </div>
 </div>
 
-<div class="span-24 ">
+<div class="span-24 last">
   <p>Find how much you <strong>Save!</strong> When you subscribe to SingTel's mio Plan</p>
 </div>
 
-
-<div class="span-12 colborder append-bottom">
+<div class="span-24 last">
+<div class="span-14 append-bottom">
 <table summary="mio Plan Calcuation"  border="0" cellspacing="0" cellpadding="0">
   <caption><em>Select Your Price Plan</em></caption>
   <thead>
@@ -42,7 +42,7 @@
     <th >Mobile Plan</th>
     <th >Broadband</th>
     <th >Fixed Line</th>
-    <th >Total Subscription</th>
+    <th >Monthly Fee</th>
   </tr>
   </thead>
   <tr>
@@ -60,27 +60,26 @@
     <td><%= number_to_currency(@ttsf0) %></td>
   </tr>
 </table>
-  <div class="prepend-1 span-3">
-<%= submit_tag("Calculate") %>
-  </div>
-<div class="span-2">
-<%= button_to "Reset", {:action => 'index'}%>
-</div>
-  <div class="span-5 last">
-<%= @result %>
-  </div>
-  </div>
 
+<div class="prepend-1 span-3 last">
+  <%= submit_tag("Calculate") %>
+</div>
+  </div>
+<div class="span-9 specific-box box last">
+  <%= @result %>
+</div>
+</div>
 <hr />
 
 
-<div class="span-13">
+<div class="span-17 last">
   <table summary="mio Plan Multi line discount"  border="0" cellspacing="0" cellpadding="0">
-    <caption><em>Calculate your mio Plan multi line discount </em>
+    <caption><em>Calculate your mio Plan multi line discount </em><br/>
     <%= form_tag ({:action => :mld, :remote => true })%>
-        Select the Number of Mobile Lines:
-     <%= select_tag "lines", options_for_select(2..5, params[:lines])%>
-     <%="Discount on Each Subscription: #{@linedis}%" %>
+      <div id="alignleft">
+      <strong>Select the Number of Mobile Lines:</strong>
+     <%= select_tag "lines", options_for_select(2..5, params[:lines])%><br/>
+     <%="Discount on Each Subscription: #{@linedis}%" %></div>
  </caption>
    <thead>
   <tr>
@@ -89,7 +88,7 @@
     <th class="span-2">3</th>
     <th class="span-2">4</th>
     <th class="span-2">5</th>
-    <th class="span-3 last">Total Subscription</th>
+    <th class="span-3 last">Total Fees</th>
   </tr>
   </thead>
   <tr>
@@ -101,7 +100,7 @@
     
   </tr>
   <tr>
-    <td>Subscription Fee</td>
+    <td>Monthly Fee</td>
     <td><%= number_to_currency(@ppsf1) %></td>
     <td><%= number_to_currency(@ppsf2) %></td>
     <td><%= number_to_currency(@ppsf3) %></td>

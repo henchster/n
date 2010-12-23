@@ -1,72 +1,90 @@
 <%= link_to("Back to list ", {:action => 'list'}) %>
 
-<%= form_for(:mobilephone, :url => {:action => 'update', :id => @mobilephone.id}) do |n|%>
+<hr/>
+<div class="span-24 last box">
+  <div class="span-24 last">
+<%= form_for(:mobilephone, :url => {:action => 'create'}) do |n|%>
   <%= n.label(:modelname, "Model Name") %>
-  <%= n.text_field(:modelname) %>
+  <%= n.text_field(:modelname) %><br/>
   <%= n.label(:brand) %>
-  <%= n.text_field(:brand) %>
+  <%= n.text_field(:brand) %><br/>
   <%= n.label(:color) %>
-  <%= n.text_field(:color) %>
+  <%= n.text_field(:color) %><br/>
   <%= n.label(:posid) %>
-  <%= n.text_field(:posid) %>
+  <%= n.text_field(:posid) %><br/>
   <%= n.label(:quantity) %>
-  <%= n.text_field(:quantity) %>
-  <%= n.label(:image_url, "Image") %>
-  <%= n.text_field(:image_url) %>
+  <%= n.number_field(:quantity)%> <br/>
+  <%= n.label(:image_url,"Image") %>
+  <%= n.text_field(:image_url) %><br/>
   <%= n.label(:gnetwork, "Network") %>
-  <%= n.text_field(:gnetwork) %>
+  <%= n.text_field(:gnetwork) %><br/>
   <%= n.label(:minternal, "Internal Memory") %>
-  <%= n.text_field(:minternal) %>
+  <%= n.text_field(:minternal) %><br/>
   <%= n.label(:mcardslot, "External Card Slot") %>
-  <%= n.text_field(:mcardslot) %>
+  <%= n.text_field(:mcardslot) %><br/>
   <%= n.label(:dwlan, "Wi-Fi Features") %>
-  <%= n.text_field(:dwlan) %>
+  <%= n.text_field(:dwlan) %><br/>
   <%= n.label(:dbluetooth, "Bluetooth") %>
-  <%= n.text_field(:dbluetooth) %>
+  <%= n.text_field(:dbluetooth) %><br/>
   <%= n.label(:dusb, "Usb") %>
-  <%= n.text_field(:dusb) %>
+  <%= n.text_field(:dusb) %><br/>
   <%= n.label(:camera, "Camera 1 / 0") %>
-  <%= n.text_field(:camera) %>
+  <%= n.number_field(:camera) %><br/>
   <%= n.label(:cprimary, "Primary Camera") %>
-  <%= n.text_field(:cprimary) %>
+  <%= n.text_field(:cprimary) %><br/>
   <%= n.label(:cvideo, "Video Cam") %>
-  <%= n.text_field(:cvideo) %>
+  <%= n.text_field(:cvideo) %><br/>
   <%= n.label(:csecondary, "Secondary Camera") %>
-  <%= n.text_field(:csecondary) %>
+  <%= n.text_field(:csecondary) %><br/>
   <%= n.label(:fos, "OS") %>
-  <%= n.text_field(:fos) %>
+  <%= n.text_field(:fos) %><br/>
   <%= n.label(:fradio, "Radio") %>
-  <%= n.text_field(:fradio) %>
+  <%= n.text_field(:fradio) %><br/>
   <%= n.label(:fjava, "Java Support") %>
-  <%= n.text_field(:fjava) %>
+  <%= n.text_field(:fjava) %><br/>
   <%= n.label(:battery) %>
-  <%= n.text_field(:battery) %>
+  <%= n.text_field(:battery) %><br/>
   <%= n.label(:formfactor) %>
-  <%= n.text_field(:formfactor) %>
-  <%= n.label(:iosv) %>
-  <%= n.text_field(:iosv) %>
-  <%= n.label(:iop) %>
-  <%= n.text_field(:iop) %>
-  <%= n.label(:itv) %>
-  <%= n.text_field(:itv) %>
-  <%= n.label(:itp) %>
-  <%= n.text_field(:itp) %>
-  <%= n.label(:ithp) %>
-  <%= n.text_field(:ithp) %>
-  <%= n.label(:fl) %>
-  <%= n.text_field(:fl) %>
-  <%= n.label(:fv) %>
-  <%= n.text_field(:fv) %>
-  <%= n.label(:fp) %>
-  <%= n.text_field(:fp) %>
-  <%= n.label(:c100) %>
-  <%= n.text_field(:c100) %>
-  <%= n.label(:p700) %>
-  <%= n.text_field(:p700) %>
-  <%= n.label(:p1500) %>
-  <%= n.text_field(:p1500) %>
-  <%= n.label(:nocontract) %>
-  <%= n.text_field(:nocontract) %>
+  <%= n.text_field(:formfactor) %><br/>
+</div>
 
-<%= submit_tag("Update") %>
-<% end  %>
+  <div class="span-18 last">
+<table summary="Price Update"  border="0" cellspacing="0" cellpadding="0">
+  <caption><em>Price</em></caption>
+  <thead>
+  <tr>
+  <th><%= n.label(:iosv) %></th>
+  <th><%= n.label(:iop) %></th>
+  <th><%= n.label(:itv) %></th>
+  <th><%= n.label(:itp) %></th>
+  <th><%= n.label(:ithp) %></th>
+  <th><%= n.label(:fl) %></th>
+  <th><%= n.label(:fv) %></th>
+  <th><%= n.label(:fp) %></th>
+  <th><%= n.label(:c100) %></th>
+  <th><%= n.label(:p700) %></th>
+  <th><%= n.label(:p1500) %></th>
+  <th><%= n.label(:nocontract) %></th>
+  </tr>
+  </thead>
+  <tr>
+  <td><%= n.text_field(:iosv, :size => 4) %></td>
+  <td><%= n.text_field(:iop, :size => 4) %></td>
+  <td><%= n.text_field(:itv, :size => 4) %></td>
+  <td><%= n.text_field(:itp, :size => 4) %></td>
+  <td><%= n.text_field(:ithp, :size => 4) %></td>
+  <td><%= n.text_field(:fl, :size => 4) %></td>
+  <td><%= n.text_field(:fv, :size => 4) %></td>
+  <td><%= n.text_field(:fp, :size => 4) %></td>
+  <td><%= n.text_field(:c100, :size => 4) %></td>
+  <td><%= n.text_field(:p700, :size => 4) %></td>
+  <td><%= n.text_field(:p1500, :size => 4) %></td>
+  <td><%= n.text_field(:nocontract, :size => 4) %></td>
+  </tr>
+  </table>
+    </div>
+  <div class="span-24 last">
+<%= submit_tag("Create") %>
+    </div>
+</div>
+  <% end %>

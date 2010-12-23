@@ -6,7 +6,7 @@
 
 <hr />
 
-<div class="span-24 last box">
+<div class="span-23 last specific-box box">
 <a href="#" onclick="Effect.toggle('miohomepriceplan', 'slide'); return false;"><em>></em> mio Home Price Plan</a>
 <div id="miohomepriceplan" style="display:none">
   <div>
@@ -15,13 +15,14 @@
 </div>
 </div>
 
-<div class="span-13">
+<div class="span-20 last">
   <table summary="mio Plan Multi line discount"  border="0" cellspacing="0" cellpadding="0">
-   <caption><em>Calculate your mio Home multi line discount </em>
+   <caption><em>Calculate your mio Home multi line discount </em><br/>
+     <div id="alignleft">
 <%= form_tag ({:action => :mld, :remote => true })%>
-  Select the Number of Mobile Lines:
-  <%= select_tag "lines", options_for_select(1..5, params[:lines])%>
-  <%= "Savings on Each Subscription: #{@linedis}%"%>
+       <strong>Select the Number of Mobile Lines:</strong>
+  <%= select_tag "lines", options_for_select(1..5, params[:lines])%><br/>
+  <%= "Savings on Each Subscription: #{@linedis}%"%></div>
    </caption>
     <thead>
   <tr>

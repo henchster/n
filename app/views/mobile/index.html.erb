@@ -4,7 +4,7 @@
 <%= link_to "mio Home", :controller => 'miohome' %>
 </div>
 <hr/>
-<div class="span-17 last box">
+<div class="span-23 last specific-box box">
 <a href="#" onclick="Effect.toggle('3gpriceplan', 'slide'); return false;">> Mobile Price Plan</a>
 <div id="3gpriceplan" style="display:none">
   <div>
@@ -23,7 +23,7 @@
 <div class="span-24 last ">
   <p>Looking for the best costing saving price plan? Let us help you find that by entering your mobile usage!</p>
 </div>
-<div class="span-8 box">
+<div class="span-8 specific-box box">
   <p>Enter Your Mobile Usage</p>
 
   <%= form_tag ({:action => :result, :remote => true}) do %>
@@ -38,6 +38,6 @@
 
 </div>
 
-<div class="span-8 last box">
+<div class="span-8 last content-box box">
 <%= @result  %>
 </div>

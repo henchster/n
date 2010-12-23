@@ -13,3 +13,14 @@
     vertical-align: middle;
     text-align:center;
 }
+
+#alignleft {
+    text-align:left;
+}
+
+.content-box{
+    border-radius:5px; -moz-border-radius: 5px; -webkit-border-radius:5px; -khtml-border-radius:5px;
+}
+
+.specific-box{
+    border-radius:5px 5px 0px 0px; -moz-border-radius: 5px 5px 0px 0px; -khtml-border-radius: 5px 5px 0px 0px; -webkit-border-radius: 5px 5px 0px 0px;}

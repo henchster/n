@@ -32,6 +32,7 @@ $ffp = MioPlan15.new("15Mbps mio Plan", "iOne Plus", 130.76, "100mins out going,
 $fithp = MioPlan15.new("15Mbps mio Plan", "iOne Plus", 208.67, "100mins out going, Free incoming voice calls, 500 local sms and Caller-ID", "15Mbps Unlimited", "mio Voice")
 $ffpr = MioPlan15.new("15Mbps mio Plan", "iOne Plus", 217.96, "100mins out going, Free incoming voice calls, 500 local sms and Caller-ID", "15Mbps Unlimited", "mio Voice")
 
+  
   def index
     @mpp1 = ['iOne Plus', 'iTwo Value', 'iTwo Plus', 'iThree Plus', 'Flexi Lite', 'Flexi', 'Flexi Plus']
   end
