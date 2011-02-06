@@ -27753,3 +27753,660 @@ Started GET "/mobile" for 127.0.0.1 at 2011-02-06 20:27:47 +0800
   Processing by MobileController#index as HTML
 Rendered mobile/index.html.erb within layouts/application (8.0ms)
 Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 22:49:05 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 22:49:09 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 22:49:28 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 22:49:40 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 22:50:08 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 22:50:10 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 22:50:10 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 22:50:11 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 22:50:12 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 22:50:35 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:01:39 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:01:48 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:04:02 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:04:16 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:04:22 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:06:02 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:06:13 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:06:50 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:11:44 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:11:51 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:13:28 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:13:34 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:16:00 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:18:30 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:19:01 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 61ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:19:17 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:19:25 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:20:28 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:20:28 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:20:29 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:21:41 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:21:46 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:21:47 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:23:22 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:23:27 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:23:32 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:23:33 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:24:17 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:24:17 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:24:18 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:24:20 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:24:20 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:24:41 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:24:42 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:24:44 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:24:44 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:24:45 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:24:56 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:24:56 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:27:18 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:27:18 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:27:19 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:27:46 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:27:46 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:27:54 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/at.jpg" for 127.0.0.1 at 2011-02-06 23:27:54 +0800
+
+ActionController::RoutingError (No route matches "/images/at.jpg"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:28:09 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:28:31 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:28:57 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:32:01 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:32:21 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:33:03 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-06 23:33:29 +0800
+  Processing by HomeController#contactus as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:33:30 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 23:33:31 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 23:35:05 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 23:35:29 +0800
+  Processing by HomeController#index as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-06 23:35:30 +0800
+  Processing by HomeController#contactus as HTML
+Rendered home/contact.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 23:35:31 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb__761087347_32214660__162076708 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (31.0ms)
+Rendered supports/new.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 73ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 23:35:32 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 23:37:43 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb__761087347_38216784__162076708 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 42ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 23:37:45 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 23:40:53 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 23:40:56 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb__761087347_37473828__162076708 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 43ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 23:40:57 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:40:57 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 23:40:58 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb__761087347_35494512__162076708 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 44ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 23:41:06 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb__761087347_35616396__162076708 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 44ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 23:41:07 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 23:41:20 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 23:41:28 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 23:43:27 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 23:46:16 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 23:46:43 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 23:46:55 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb__761087347_38890188__162076708 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 43ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 23:46:56 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 23:46:58 +0800
+  Processing by HomeController#index as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mobile" for 127.0.0.1 at 2011-02-06 23:47:16 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2011-02-06 23:47:30 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mSQL (3.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (103.0ms)
+Completed 200 OK in 456ms (Views: 120.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2011-02-06 23:48:26 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 76ms (Views: 56.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/mobile" for 127.0.0.1 at 2011-02-06 23:48:41 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 23:48:42 +0800
+  Processing by HomeController#index as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-07 00:01:48 +0800
+  Processing by HomeController#index as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-07 00:02:45 +0800
+  Processing by HomeController#index as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-07 00:02:46 +0800
+  Processing by HomeController#contactus as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-07 00:02:56 +0800
+  Processing by HomeController#contactus as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-07 00:03:50 +0800
+  Processing by HomeController#index as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-07 00:03:52 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb__761087347_49389768__162076708 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 42ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-07 00:03:52 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-07 00:03:55 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb__761087347_50071008__162076708 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 44ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-07 00:03:58 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)

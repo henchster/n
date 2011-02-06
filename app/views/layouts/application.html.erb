@@ -7,9 +7,10 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-  <div id="logo"><%= image_tag("at.gif", :size => "120x90") %></div>
   <div class="container">
+    <div id="logo" class="prepend-3"><%= image_tag("at.gif", :size => "100x70") %></div>
   <div id="navigation" class="span-24 last prepend-17 prepend-top append-bottom">
+    
 <%= link_to "Home", {:controller => 'home' }, :class => "first" %>
 <%= link_to "Price Plan", :controller => 'mobile' %>
 <%= link_to "Store", :controller => 'store' %>

@@ -28,7 +28,11 @@
 
 #logo {
 	position: absolute;
-	width: 233px;
+	width: 280px;
 	top: 0;
 	left: 0;
+}
+#header {
+	height: 120px;
+	border-bottom: 1px solid #ddd;
 }
