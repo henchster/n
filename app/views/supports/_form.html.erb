@@ -1,0 +1,23 @@
+<div class="span-12 box last">
+<% form_for @support, :url => { :action => "create" }, :html => { :method => :post } do |f| %>
+
+    <%= f.label "Name" %>
+    <%= f.text_field :sender_name %><br/>
+
+    <%= f.label "Email" %>
+
+    <%= f.text_field :email %><br/>
+
+    <%= f.label "Type" %>
+
+    <%= f.select :support_type, options_for_select(["Enquires", "Complains", "Suggestion"]) %><br/>
+
+    <%= f.label "Details" %><br/>
+ 
+    <%= f.text_area :content %><br/>
+
+      <div class="prepend-1 last append-bottom"><%= f.submit "Submit" %>
+      Thank you for your feedback!
+  </div>
+    </div>
+<% end %>
