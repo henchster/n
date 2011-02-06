@@ -24830,3 +24830,1676 @@ Started GET "/" for 127.0.0.1 at 2010-12-23 15:48:13 +0800
   Processing by MobileController#index as HTML
 Rendered mobile/index.html.erb within layouts/application (7.0ms)
 Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 10:27:23 +0800
+
+Mysql2::Error (Can't connect to MySQL server on 'localhost' (10061)):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (28.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (74.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 10:27:47 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 10:27:51 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2011-02-06 10:27:52 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mSQL (78.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (167.0ms)
+Completed 200 OK in 697ms (Views: 191.0ms | ActiveRecord: 79.0ms)
+
+
+Started GET "/store/show/1" for 127.0.0.1 at 2011-02-06 10:27:58 +0800
+  Processing by StoreController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`id` = 1) LIMIT 1[0m
+Rendered store/show.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 99ms (Views: 80.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 10:28:02 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 10:28:03 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 10:28:40 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 10:56:01 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 11:01:46 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mobile" for 127.0.0.1 at 2011-02-06 11:03:14 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2011-02-06 11:03:17 +0800
+  Processing by StoreController#index as HTML
+  [1m[35mMobiledata Load (1.0ms)[0m  SELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)
+Rendered store/index.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 101ms (Views: 79.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/mobile" for 127.0.0.1 at 2011-02-06 11:04:01 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mobile" for 127.0.0.1 at 2011-02-06 11:04:05 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 11:04:09 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 42ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mobile" for 127.0.0.1 at 2011-02-06 11:04:27 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 11:05:43 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mobile" for 127.0.0.1 at 2011-02-06 11:05:51 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 11:10:43 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 11:11:08 +0800
+
+ArgumentError (missing :action):
+  config/routes.rb:54:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 11:11:13 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mobile" for 127.0.0.1 at 2011-02-06 11:11:16 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mobile" for 127.0.0.1 at 2011-02-06 11:11:21 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 11:11:23 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store" for 127.0.0.1 at 2011-02-06 11:11:24 +0800
+  Processing by StoreController#index as HTML
+  [1m[36mMobiledata Load (1.0ms)[0m  [1mSELECT `mobiledatas`.* FROM `mobiledatas` WHERE (`mobiledatas`.`quantity` BETWEEN 1 AND 100)[0m
+Rendered store/index.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 97ms (Views: 77.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 11:11:26 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 11:12:57 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2011-02-06 11:12:58 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 11:13:00 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 11:13:02 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 11:13:02 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 11:13:03 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 11:13:15 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 15:09:29 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_32653248_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 41ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 15:09:39 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"", "email"=>"", "support_type"=>"Bug", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_32350368_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 47ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 15:09:41 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"", "email"=>"", "support_type"=>"Bug", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_32374836_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 45ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at 2011-02-06 15:24:36 +0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for SupportsController):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at 2011-02-06 15:37:45 +0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for SupportsController):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at 2011-02-06 15:42:42 +0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for SupportsController):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at 2011-02-06 15:53:59 +0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for SupportsController):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 15:54:02 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_33443748_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 44ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 15:54:05 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"", "email"=>"", "support_type"=>"Bug", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_35150220_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 47ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 15:54:07 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"ed", "email"=>"", "support_type"=>"Bug", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_35488704_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 46ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at 2011-02-06 16:06:23 +0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for SupportsController):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 16:06:25 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_35549184_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 40ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 16:11:49 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_35624220_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 42ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:15:03 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"ed", "email"=>"henchster@gmail.com", "support_type"=>"Bug", "content"=>"he"}, "commit"=>"Submit"}
+
+Sent mail to feedbackapple@gmail.com (2278ms)
+Date: Sun, 06 Feb 2011 16:15:06 +0800
+From: henchster@gmail.com
+To: feedbackapple@gmail.com
+Message-ID: <4d4e588a937ea_e7c20202845782c@Henchster-PC.mail>
+Subject: New Bug
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 4922ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 16:15:08 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 16:22:27 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40200288_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 40ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:22:33 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"456", "email"=>"tg", "support_type"=>"Bug", "content"=>"tg"}, "commit"=>"Submit"}
+
+Sent mail to feedbackapple@gmail.com (2005ms)
+Date: Sun, 06 Feb 2011 16:22:33 +0800
+From: tg
+To: feedbackapple@gmail.com
+Message-ID: <4d4e5a49a95ce_e7c369307857925@Henchster-PC.mail>
+Subject: New Bug
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 2055ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 16:22:35 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 16:23:20 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40423968_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 40ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:23:25 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"31", "email"=>"23", "support_type"=>"Bug", "content"=>"23"}, "commit"=>"Submit"}
+
+Sent mail to feedbackapple@gmail.com (2012ms)
+Date: Sun, 06 Feb 2011 16:23:25 +0800
+From: 23
+To: feedbackapple@gmail.com
+Message-ID: <4d4e5a7de56b2_e7c2651c3458067@Henchster-PC.mail>
+Subject: New Bug
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 2063ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 16:23:27 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 16:24:26 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/support/new" for 127.0.0.1 at 2011-02-06 16:24:31 +0800
+
+ActionController::RoutingError (No route matches "/support/new"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/support/new" for 127.0.0.1 at 2011-02-06 16:24:34 +0800
+
+ActionController::RoutingError (No route matches "/support/new"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 16:24:36 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_57194268_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 82ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:25:35 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"34", "email"=>"34", "support_type"=>"Idea", "content"=>"34"}, "commit"=>"Submit"}
+
+Sent mail to feedbackapple@gmail.com (2007ms)
+Date: Sun, 06 Feb 2011 16:25:35 +0800
+From: 34
+To: feedbackapple@gmail.com
+Message-ID: <4d4e5aff7f77e_e7c2632f80581c9@Henchster-PC.mail>
+Subject: New Idea
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 2054ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 16:25:37 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:25:58 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"34", "email"=>"34", "support_type"=>"Idea", "content"=>"34"}, "commit"=>"Submit"}
+
+Sent mail to feedbackapple@gmail.com (2005ms)
+Date: Sun, 06 Feb 2011 16:25:58 +0800
+From: 34
+To: feedbackapple@gmail.com
+Message-ID: <4d4e5b16299a5_e7c2632f80582b2@Henchster-PC.mail>
+Subject: New Idea
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 2075ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 16:26:00 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-06 16:28:45 +0800
+  Processing by HomeController#contactus as HTML
+Completed   in 83ms
+
+ActionView::MissingTemplate (Missing template home/contactus with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "C:/Rails/n/app/views"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 16:29:13 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40161924_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 41ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:29:19 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"ed", "email"=>"", "support_type"=>"Bug", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40171248_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 44ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:29:21 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"ed", "email"=>"", "support_type"=>"Bug", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40369596_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 42ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:35:40 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"ed", "email"=>"", "support_type"=>"Bug", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56722644_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 50ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 16:35:43 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56918796_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.0ms)
+Rendered supports/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 45ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:35:45 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"", "email"=>"", "support_type"=>"Bug", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_57240720_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 92ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:36:01 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"", "email"=>"", "support_type"=>"Bug", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56949060_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 72ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 16:36:04 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_36387504_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 67ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:36:05 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"", "email"=>"", "support_type"=>"Bug", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_38537616_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 43ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 16:36:16 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"ed", "email"=>"henchster@gmail.com", "support_type"=>"Bug", "content"=>"eafsfesgrdg"}, "commit"=>"Submit"}
+
+Sent mail to feedbackapple@gmail.com (2011ms)
+Date: Sun, 06 Feb 2011 16:36:16 +0800
+From: henchster@gmail.com
+To: feedbackapple@gmail.com
+Message-ID: <4d4e5d8088e87_e7c3696084583c3@Henchster-PC.mail>
+Subject: New Bug
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 2062ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 16:36:18 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-06 16:42:30 +0800
+  Processing by HomeController#contactus as HTML
+Completed   in 12ms
+
+ActionView::MissingTemplate (Missing template home/contactus with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "C:/Rails/n/app/views"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 16:42:32 +0800
+  Processing by HomeController#about as HTML
+Completed   in 12ms
+
+ActionView::MissingTemplate (Missing template home/about with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "C:/Rails/n/app/views"):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 17:53:39 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 18:04:36 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-06 18:04:38 +0800
+  Processing by HomeController#contactus as HTML
+Rendered home/contact.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 18:04:41 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 18:05:58 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 18:06:00 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 18:06:44 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/feedback" for 127.0.0.1 at 2011-02-06 18:06:46 +0800
+  Processing by HomeController#feedback as HTML
+Rendered home/feedback.html.erb within layouts/application (2.0ms)
+Completed   in 18ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    5:   </div>
+    6: 
+    7: <% # app/views/supports/_form.html.erb %>
+    8: <% form_for @support, :url => { :action => "create" }, :html => { :method => :post } do |f| %>
+    9:   <p>
+    10:     <%= f.label "Name" %>
+    11:   </p>
+  app/views/home/feedback.html.erb:8:in `_app_views_home_feedback_html_erb__741093982_40400172__649461539'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-06 18:06:51 +0800
+  Processing by HomeController#contactus as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 18:06:52 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/feedback" for 127.0.0.1 at 2011-02-06 18:06:52 +0800
+  Processing by HomeController#feedback as HTML
+Rendered home/feedback.html.erb within layouts/application (2.0ms)
+Completed   in 20ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    5:   </div>
+    6: 
+    7: <% # app/views/supports/_form.html.erb %>
+    8: <% form_for @support, :url => { :action => "create" }, :html => { :method => :post } do |f| %>
+    9:   <p>
+    10:     <%= f.label "Name" %>
+    11:   </p>
+  app/views/home/feedback.html.erb:8:in `_app_views_home_feedback_html_erb__741093982_40176828__649461539'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.0ms)
+
+
+Started GET "/home/feedback" for 127.0.0.1 at 2011-02-06 18:09:58 +0800
+  Processing by HomeController#feedback as HTML
+Rendered home/feedback.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/feedback" for 127.0.0.1 at 2011-02-06 18:12:22 +0800
+  Processing by HomeController#feedback as HTML
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:22 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 0ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:22 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:22 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:22 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:22 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 0ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:22 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 0ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 0ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 0ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 1ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:23 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/home/feedback?view=supports
+Completed 302 Found in 0ms
+
+
+Started GET "/home/feedback?view=supports" for 127.0.0.1 at 2011-02-06 18:12:43 +0800
+  Processing by HomeController#feedback as HTML
+  Parameters: {"view"=>"supports"}
+Redirected to http://localhost:3000/supports
+Completed 302 Found in 1ms
+
+
+Started GET "/supports" for 127.0.0.1 at 2011-02-06 18:12:43 +0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for SupportsController):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2011-02-06 18:12:46 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/feedback" for 127.0.0.1 at 2011-02-06 18:12:49 +0800
+  Processing by HomeController#feedback as HTML
+Redirected to http://localhost:3000/supports
+Completed 302 Found in 0ms
+
+
+Started GET "/supports" for 127.0.0.1 at 2011-02-06 18:12:49 +0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for SupportsController):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (24.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at 2011-02-06 18:13:20 +0800
+  Processing by SupportsController#index as HTML
+Rendered supports/_form.html.erb (1.0ms)
+Rendered supports/new.html.erb within layouts/application (7.0ms)
+Completed   in 25ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <% # app/views/supports/_form.html.erb %>
+    2: <% form_for @support, :url => { :action => "create" }, :html => { :method => :post } do |f| %>
+    3:   <p>
+    4:     <%= f.label "Name" %>
+    5:   </p>
+  app/views/supports/_form.html.erb:2:in `_app_views_supports__form_html_erb___1015343706_40181148_290605486'
+  app/views/supports/new.html.erb:7:in `_app_views_supports_new_html_erb__1050162523_40195764__649461539'
+  app/controllers/supports_controller.rb:4:in `index'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 18:13:21 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/feedback" for 127.0.0.1 at 2011-02-06 18:13:23 +0800
+  Processing by HomeController#feedback as HTML
+Redirected to http://localhost:3000/supports
+Completed 302 Found in 0ms
+
+
+Started GET "/supports" for 127.0.0.1 at 2011-02-06 18:13:23 +0800
+  Processing by SupportsController#index as HTML
+Rendered supports/_form.html.erb (1.0ms)
+Rendered supports/new.html.erb within layouts/application (7.0ms)
+Completed   in 24ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <% # app/views/supports/_form.html.erb %>
+    2: <% form_for @support, :url => { :action => "create" }, :html => { :method => :post } do |f| %>
+    3:   <p>
+    4:     <%= f.label "Name" %>
+    5:   </p>
+  app/views/supports/_form.html.erb:2:in `_app_views_supports__form_html_erb___1015343706_39569664_290605486'
+  app/views/supports/new.html.erb:7:in `_app_views_supports_new_html_erb__1050162523_39896880__649461539'
+  app/controllers/supports_controller.rb:4:in `index'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 18:15:05 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at 2011-02-06 18:15:09 +0800
+  Processing by SupportsController#index as HTML
+Rendered supports/_form.html.erb (2.0ms)
+Rendered supports/new.html.erb within layouts/application (7.0ms)
+Completed   in 23ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <% # app/views/supports/_form.html.erb %>
+    2: <% form_for @support, :url => { :action => "create" }, :html => { :method => :post } do |f| %>
+    3:   <p>
+    4:     <%= f.label "Name" %>
+    5:   </p>
+  app/views/supports/_form.html.erb:2:in `_app_views_supports__form_html_erb___1015343706_40160928_290605486'
+  app/views/supports/new.html.erb:7:in `_app_views_supports_new_html_erb__1050162523_40178064__649461539'
+  app/controllers/supports_controller.rb:4:in `index'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 18:15:21 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at 2011-02-06 18:15:22 +0800
+  Processing by SupportsController#index as HTML
+Rendered supports/_form.html.erb (1.0ms)
+Rendered supports/new.html.erb within layouts/application (6.0ms)
+Completed   in 23ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <% # app/views/supports/_form.html.erb %>
+    2: <% form_for @support, :url => { :action => "create" }, :html => { :method => :post } do |f| %>
+    3:   <p>
+    4:     <%= f.label "Name" %>
+    5:   </p>
+  app/views/supports/_form.html.erb:2:in `_app_views_supports__form_html_erb___1015343706_56947332_290605486'
+  app/views/supports/new.html.erb:7:in `_app_views_supports_new_html_erb__1050162523_56962992__649461539'
+  app/controllers/supports_controller.rb:4:in `index'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:15:35 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_36066684_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 66ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/feedback" for 127.0.0.1 at 2011-02-06 18:15:39 +0800
+
+AbstractController::ActionNotFound (The action 'feedback' could not be found for SupportsController):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 18:15:52 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 18:15:53 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:15:55 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_36969900_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 42ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/contactus" for 127.0.0.1 at 2011-02-06 18:15:56 +0800
+
+AbstractController::ActionNotFound (The action 'contactus' could not be found for SupportsController):
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 18:16:43 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 18:16:45 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-06 18:16:47 +0800
+  Processing by HomeController#contactus as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/feedback" for 127.0.0.1 at 2011-02-06 18:16:48 +0800
+  Processing by HomeController#feedback as HTML
+Rendered home/feedback.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 18:17:01 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:17:04 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40378692_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.0ms)
+Rendered supports/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 47ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 18:17:06 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 18:17:09 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 45ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:17:09 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_38754120_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 42ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 18:18:23 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 18:18:27 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-06 18:18:28 +0800
+  Processing by HomeController#contactus as HTML
+Rendered home/contact.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/feedback" for 127.0.0.1 at 2011-02-06 18:18:30 +0800
+  Processing by HomeController#feedback as HTML
+Rendered home/feedback.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/feedback" for 127.0.0.1 at 2011-02-06 18:18:32 +0800
+  Processing by HomeController#feedback as HTML
+Rendered home/feedback.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 18:18:59 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-06 18:19:06 +0800
+  Processing by HomeController#contactus as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 18:19:25 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 18:19:29 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 18:19:52 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 18:19:53 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contactus" for 127.0.0.1 at 2011-02-06 18:19:55 +0800
+  Processing by HomeController#contactus as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:19:56 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39559236_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 42ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 18:19:58 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 18:20:00 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:20:00 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_36196572_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (27.0ms)
+Rendered supports/new.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 66ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 18:20:01 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-06 18:20:02 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:20:03 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56876052_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 44ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:22:14 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40049868_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:22:26 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40047696_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:22:34 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40375932_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 42ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:22:59 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40048872_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 42ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:23:00 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40388304_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:23:20 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40184544_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 44ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:24:15 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40037256_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 41ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:24:51 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39927120_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 85ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:25:35 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56894880_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 51ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:25:54 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56873532_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 42ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:27:03 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40370520_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 44ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:27:35 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40040772_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 44ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:27:55 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40044516_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:28:18 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40034196_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:28:22 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39905304_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:28:26 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40187064_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 44ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:28:33 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40384368_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 46ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:28:35 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56866320_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:28:42 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56899176_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 44ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:28:52 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56908596_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 45ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:29:55 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56722152_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 41ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:30:23 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40182804_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 50ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:31:09 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40036572_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 44ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:31:16 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40047744_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 45ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:32:01 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40025004_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 41ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:32:30 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39910032_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (30.0ms)
+Rendered supports/new.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 70ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:32:42 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_37538772_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 46ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:32:47 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39029640_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 49ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:32:52 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39901668_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 45ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:32:57 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40176444_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 45ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:33:06 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40401156_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 49ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:33:07 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56876676_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 44ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:33:20 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56884608_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:33:21 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_57212568_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 72ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:33:25 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_37242540_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 45ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:33:35 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39492960_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 45ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 18:33:40 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"", "email"=>"", "support_type"=>"Enquires", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39460932_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 46ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 18:34:01 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"", "email"=>"", "support_type"=>"Enquires", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39916224_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 45ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 18:34:02 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"", "email"=>"", "support_type"=>"Enquires", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39464256_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 46ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:35:04 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39941628_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 42ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 18:35:08 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"", "email"=>"", "support_type"=>"Enquires", "content"=>""}, "commit"=>"Submit"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_38558172_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 47ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:37:27 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56877360_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (3.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 41ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at 2011-02-06 18:37:33 +0800
+  Processing by SupportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43AITwXjKoKO4TyVStjGWjPcGvbURTE8E+uZGT3ohnI=", "support"=>{"sender_name"=>"ed", "email"=>"ed@gmail.com", "support_type"=>"Enquires", "content"=>"ed"}, "commit"=>"Submit"}
+
+Sent mail to feedbackapple@gmail.com (2006ms)
+Date: Sun, 06 Feb 2011 18:37:34 +0800
+From: ed@gmail.com
+To: feedbackapple@gmail.com
+Message-ID: <4d4e79eea80f_e7c364edec584b2@Henchster-PC.mail>
+Subject: New Enquires
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 2103ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 18:37:36 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:37:39 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40384764_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 18:37:40 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2011-02-06 18:37:40 +0800
+  Processing by HomeController#about as HTML
+Rendered home/about.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-02-06 18:44:10 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:44:13 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_56723064_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:45:30 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40044948_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:46:20 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39938340_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.0ms)
+Rendered supports/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 50ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:46:34 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_39931020_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2011-02-06 18:46:51 +0800
+  Processing by HomeController#contact as HTML
+Rendered home/contact.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at 2011-02-06 18:47:09 +0800
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___1015343706_40033512_290605486 at C:/Rails/n/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 42ms (Views: 30.0ms | ActiveRecord: 0.0ms)
