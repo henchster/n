@@ -23,4 +23,12 @@
 }
 
 .specific-box{
-    border-radius:5px 5px 0px 0px; -moz-border-radius: 5px 5px 0px 0px; -khtml-border-radius: 5px 5px 0px 0px; -webkit-border-radius: 5px 5px 0px 0px;}
+    border-radius:5px 5px 0px 0px; -moz-border-radius: 5px 5px 0px 0px; -khtml-border-radius: 5px 5px 0px 0px; -webkit-border-radius: 5px 5px 0px 0px;
+}
+
+#logo {
+	position: absolute;
+	width: 233px;
+	top: 0;
+	left: 0;
+}

@@ -7,8 +7,9 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
+  <div id="logo"><%= image_tag("at.gif", :size => "120x90") %></div>
   <div class="container">
-  <div id="navigation" class="span-24 last prepend-top append-bottom">
+  <div id="navigation" class="span-24 last prepend-17 prepend-top append-bottom">
 <%= link_to "Home", {:controller => 'home' }, :class => "first" %>
 <%= link_to "Price Plan", :controller => 'mobile' %>
 <%= link_to "Store", :controller => 'store' %>
@@ -19,4 +20,11 @@
       <%= yield %>
  </div>
 </body>
+<hr/>
+    <div class="prepend-19">
+      Connect with us at   .
+      <%= link_to image_tag("facebook.png"), "https://www.facebook.com/appletelecom"%>
+      <%= link_to image_tag("twitter.png"), "http://twitter.com/#!/appleesmart"%>
+    </div>
+
 </html>
