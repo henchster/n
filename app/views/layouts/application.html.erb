@@ -23,21 +23,21 @@
 
 </head>
 <body>
-  <div class="container">
-    <div id="logo" class="prepend-3"><%= image_tag("at.gif", :size => "100x70") %></div>
+  <!-- <div class="container">
+    <div id="logo" class="prepend-3"><%= image_tag("at.gif", :size => "100x70") %></div> -->
   <div id="navigation" class="span-6 prepend-7 prepend-top append-bottom last">
     
-<%= link_to "Home", {:controller => 'home' }, :class => "first" %>
+ <%= link_to "Home", {:controller => 'mobile' }, :class => "first" %> 
 <%= link_to "Price Plan", :controller => 'mobile' %>
 <%= link_to "Store", :controller => 'store' %>
  </div>
 
-    <div class="span-6 last prepend-top">
+ <!--   <div class="span-6 last prepend-top">
   Get latest Promotions! in your inbox:
   <% form_tag do %>
   <%= email_field_tag ('email')%>
   <%= submit_tag "Join" %>
-  <%  end %>
+  <%  end %> 
 
 </div>
         <div class="span-5 last prepend-top">
@@ -45,7 +45,7 @@
       <%= link_to image_tag("facebook.png"), "https://www.facebook.com/appletelecom"%>
       <%= link_to image_tag("twitter.png"), "http://twitter.com/#!/appleesmart"%>
     </div>
-  </div>
+  </div> -->
 <hr />
 <div class="container">
       <%= yield %>
