@@ -3,6 +3,7 @@
 <%= link_to "mio Plan", :controller => 'mioplan' %>
 <%= link_to "mio Home", :controller => 'miohome' %>
 </div>
+<h4>SingTel's Services Calculator, helps you find the best price plan and how much you can save with these applications.</h4>
 <hr/>
 <div class="span-23 last specific-box box">
 <a href="#" onclick="Effect.toggle('3gpriceplan', 'slide'); return false;">> Mobile Price Plan</a>
@@ -21,10 +22,10 @@
 </div>
 
 <div class="span-24 last ">
-  <p>Looking for the best costing saving price plan? Let us help you find that by entering your mobile usage!</p>
+  <p>Find out the best cost saving mobile price plan, by entering your estimated monthly usage.</p>
 </div>
 <div class="span-8 specific-box box">
-  <p>Enter Your Mobile Usage</p>
+  <p>Fill in Your Monthly Mobile Usage</p>
 
   <%= form_tag ({:action => :result, :remote => true}) do %>
     <%= label_tag(:talktime, "Talktime:") %>

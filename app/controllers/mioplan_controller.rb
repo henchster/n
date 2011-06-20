@@ -277,7 +277,7 @@ $ffpr = MioPlan15.new("15Mbps mio Plan", "iOne Plus", 217.96, "100mins out going
     @ttsf0 = @ppsf01+@bbsf+@flinesf
     @result = "Save! #{number_to_currency(@ttsf0-@mpr.monthlyfee)} with #{@mpr.generalname}."
 
-    render 'index'
+    render('index')
   end
 
 end

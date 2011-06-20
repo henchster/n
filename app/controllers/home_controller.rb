@@ -2,10 +2,10 @@ class HomeController < ApplicationController
 
   def index
     about
+	render('about')
   end
 
   def about
-    render('about')
   end
 
   def contactus

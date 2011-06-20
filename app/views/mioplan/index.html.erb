@@ -53,7 +53,7 @@
     <td><%= select_tag "fline", options_for_select(["Analog", "mio Voice"], params[:fline]) %></td>
   </tr>
   <tr>
-    <td>Subscription Fee</td>
+    <td><font size="1">Standalone Subscription Fee</font></td>
     <td><%= number_to_currency(@ppsf01) %></td>
     <td><%= number_to_currency(@bbsf) %></td>
     <td><%= number_to_currency(@flinesf) %></td>
@@ -117,14 +117,15 @@
   </tr>
   <tr>
     <td>Savings</td>
-    <td><%= number_to_currency(@pps1)  %></td>
-    <td><%= number_to_currency(@pps2)  %></td>
-    <td><%= number_to_currency(@pps3)  %></td>
-    <td><%= number_to_currency(@pps4)  %></td>
-    <td> <%= number_to_currency(@tts) %></td>
+    <td><%= number_to_currency(@pps1) %></td>
+    <td><%= number_to_currency(@pps2) %></td>
+    <td><%= number_to_currency(@pps3) %></td>
+    <td><%= number_to_currency(@pps4) %></td>
+    <td><%= number_to_currency(@tts) %></td>
   </tr>
 </table>
-  <div class="prepend-1 last append-bottom"
-<%= submit_tag("Calculate") %>
+  <div class="prepend-1 last append-bottom">
+<%= submit_tag("Calculate MLD") %>
+
 </div>
 </div>
