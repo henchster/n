@@ -1,5 +1,7 @@
 N::Application.routes.draw do
 
+  get "demo/index"
+
   resources :supports, :only => [:new, :create]
   
 
