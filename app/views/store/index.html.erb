@@ -17,13 +17,14 @@
 <div class="span-24 last">
   <% @productlists.each do |p| %>
 <div class="span-5 content-box box">
-  <div class="span-2 ">
+  <div class="span-2">
     <%= image_tag(p.image_url, :size => "60x107") %>
     </div>
-  <div class="span-2 last">
+  <div class="span-3 last">
     <p><strong><%= p.modelname %></strong></p>
-    <%= link_to "Full Details", :action => 'show', :id => p.id %>
-    <%= "Price From: #{number_to_currency(p.iop)}" %>
+    
+    <%= "Price From: #{number_to_currency(p.iop)}" %><br><br>
+	<%= link_to "Full Details", :action => 'show', :id => p.id %>
     </div>
     </div>
   <% end %>

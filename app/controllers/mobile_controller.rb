@@ -160,7 +160,7 @@ $dummy12 = BbomVASPlan.new("", 0, 0, 0, 0,10241,12288)
          @result = "Save #{number_to_currency(@subfee - @talktimer.monthlyfee)} monthly! when you change to #{@talktimer.priceplanname} with #{@talktimer.localcalls}mins local calls, #{@talktimer.localsms} local SMS and monthly fee of #{number_to_currency(@talktimer.monthlyfee)}."
       end
     else
-      @result = "Error"
+      @result = "You have entered invalid usage."
     end
  render 'index'
   end

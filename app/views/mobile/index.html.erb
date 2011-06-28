@@ -1,20 +1,36 @@
-<div id="sub-navigation" class="span-8">
-<%= link_to "Mobile", :controller => 'mobile' %>
-<%= link_to "mio Plan", :controller => 'mioplan' %>
-<%= link_to "mio Home", :controller => 'miohome' %>
+
+
+
+<div class="span-5 content-box prepend-top box">
+  <h4>We helps you find the best <em>SingTel's service price plan</em> and calculate how much you can save!</h4>
 </div>
 
-<div class="span-16 last">
-<h4>SingTel's Services Calculator, helps you find the best price plan and how much you can save.</h4>
+<div class="span-8 prepend-top box ">
+  <%= form_tag ({:action => :result, :remote => true}) do %>
+    <%= "Fill in your estimated monthly mobile usage" %><br/><br/>	
+    <%= label_tag(:talktime, "Talktime:") %>
+    <%= number_field_tag :talktime, params[:talktime] %> mins<br />
+    <%= label_tag(:data, "Data Usage:") %>
+    <%= number_field_tag :data, params[:data] %> mb<br />
+    <%= label_tag(:subfee, "Subscription Fee: $") %>
+    <%= number_field_tag :subfee, params[:subfee] %><br />
+    <%= submit_tag "Calculate" %>
+  <% end %>
 </div>
+
+<div class="span-8 prepend-top box last">
+  <%= @result  %>
+</div>
+
+<div class="span-18 prepend-6 last">
 <hr/>
-
-<div class="span-16 prepend-3 last">
+<div class="span-8">
 <table id="rounded-corner" summary="SingTel's Mobile Price Plan">
+  <caption>SingTel's Mobile Price Plan</caption>
 
     <thead>
     	<tr>
-        	<th scope="col" class="rounded-company">Price Plan</th>
+        	<th scope="col" class="rounded-priceplan">Price Plan</th>
             <th scope="col" class="rounded-q1">Monthly Subscription</th>
             <th scope="col" class="rounded-q2">Free Local Outgoing Calls (mins)</th>
             <th scope="col" class="rounded-q3">Free Local SMS</th>
@@ -100,26 +116,5 @@
     </tbody>
 </table>
 </div>
-
-<div class="span-18 prepend-3">
-  <p>Find out the best cost saving mobile price plan, by entering your estimated monthly usage.</p>
-
-<div class="span-8 box">
-  <p>Fill in Your Monthly Mobile Usage</p>
-
-  <%= form_tag ({:action => :result, :remote => true}) do %>
-    <%= label_tag(:talktime, "Talktime:") %>
-    <%= number_field_tag :talktime, params[:talktime] %> mins<br />
-    <%= label_tag(:data, "Data Usage:") %>
-    <%= number_field_tag :data, params[:data] %> mb<br />
-    <%= label_tag(:subfee, "Subscription Fee: $") %>
-    <%= number_field_tag :subfee, params[:subfee] %><br />
-  <%= submit_tag "Calculate" %>
-<% end %>
-
 </div>
 
-<div class="span-8 box last">
-<%= @result  %>
-</div>
-</div>

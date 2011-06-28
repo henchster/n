@@ -1,13 +1,13 @@
+
 <%= link_to("Back to store", {:action => 'index'})  %>
 <hr/>
 <div class="span-24 last">
   
 <div class="span-7 colborder">
  
-  <div class="box center"><strong><%=  @product.modelname %></strong><br/>
-Color:
-<%=  @product.color %></div>
-  <div class="center"><%= image_tag(@product.image_url) %></div>
+  <div class="box"><center><strong><%=  @product.modelname %></strong><br/>
+  <%= "Color: #{@product.color}" %></center></div>
+  <div><center><%= image_tag(@product.image_url) %></center></div>
   
 </div>
 
