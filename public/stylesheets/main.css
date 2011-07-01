@@ -98,3 +98,44 @@
 {
 	background: #d0dafd;
 }
+
+#stylized label{
+font-weight:bold;
+text-align:right;
+width:120px;
+float:left;
+}
+#stylized .small{
+color:#666666;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:120px;
+}
+#stylized input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+width:100px;
+margin:3px 50px 15px 10px;
+}
+
+#stylized .calculate{
+margin-left:130px;
+}
+
+
+/* http://colorschemedesigner.com/#0841Tw0w0w0w0 */
+.red {
+	color: #BF4930;
+}
+.orange {
+	color: #BF7A30;
+}
+.blue {
+	color: #226078;
+}
+.green {
+	color: #238B49;
+}
+
