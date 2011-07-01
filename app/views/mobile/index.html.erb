@@ -4,30 +4,34 @@
 <div class="span-5 content-box prepend-top box">
   <h3>We helps you find the best <em>SingTel's service price plan</em> and calculate how much you can save!</h3>
 </div>
-
-<div id="stylized" class="span-8 prepend-top box">
+<div id="mobileform">
+<div class="span-8 prepend-top box">
   <%= form_tag ({:action => :result, :remote => true}) do %>
-	<b class="red">Mobile Price Plan Calculator</b>
-    <p><%= "Fill in your estimated monthly mobile usage" %></p>	<hr>
+	<h3 class="red">Mobile Price Plan Calculator</h3>
+    <p>Fill in your estimated monthly mobile usage:</p>	<hr>
 	
     <label>Talktime<br>	
 	<span class="small">Minutes</span></label>
-    <%= number_field_tag(:talktime, value = nil) %> 
+    <%= number_field_tag(:talktime, params[:talktime]) %> 
 	
     <label>Data Usage<br>	
 	<span class="small">Megabyte (mb)</span></label>
-    <%= number_field_tag(:data, value = nil) %>
+    <%= number_field_tag(:data, params[:data]) %>
 	
     <label>Subscription<br>	
 	<span class="small">Monthly Fees $</span></label>
-    <%= number_field_tag(:subfee, value = nil) %>
+    <%= number_field_tag(:subfee, params[:subfee]) %>
 
     <%= submit_tag("Calculate", :class => "calculate") %>
   <% end %>
 </div>
 
 <div class="span-8 prepend-top box last">
+  <% if !@result.nil? %>
+  <h3 class="red"><%= "Our Recommendation" %></h3><p>for your usage is:</p><hr>
   <%= @result  %>
+  <% end %>
+</div>
 </div>
 
 <div class="span-18 prepend-6 last">

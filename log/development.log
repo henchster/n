@@ -37681,3 +37681,974 @@ Started GET "/" for 127.0.0.1 at 2011-07-01 13:06:53 +0800
   Processing by MobileController#index as HTML
 Rendered mobile/index.html.erb within layouts/application (5.0ms)
 Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:12:45 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:12:59 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:14:34 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:14:36 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:14:40 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:14:41 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:14:41 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:15:06 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:15:07 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:16:52 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:17:04 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:17:13 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:17:19 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:17:27 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:18:07 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 69ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:18:19 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:18:22 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:20:56 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"5000", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:21:35 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100000", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:21:52 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"0", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:22:34 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (38.0ms)
+Completed   in 53ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for nil:NilClass):
+    12: 	
+    13:     <label>Talktime<br>	
+    14: 	<span class="small">Minutes</span></label>
+    15:     <%= number_field_tag(:talktime, value = nil, params[:talktime]) %> 
+    16: 	
+    17:     <label>Data Usage<br>	
+    18: 	<span class="small">Megabyte (mb)</span></label>
+  app/views/mobile/index.html.erb:15:in `block in _app_views_mobile_index_html_erb__906490327_38697792__249870914'
+  app/views/mobile/index.html.erb:9:in `_app_views_mobile_index_html_erb__906490327_38697792__249870914'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:23:12 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:23:16 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:23:19 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:23:22 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:24:05 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:24:27 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:24:58 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:25:14 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:25:30 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:29:53 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:30:44 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:31:42 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:32:03 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:32:37 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:33:42 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:33:50 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:33:55 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:34:55 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:35:03 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:35:10 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:35:17 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 86ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:35:26 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:35:53 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:36:08 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:36:18 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:37:14 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:37:40 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:39:45 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:40:12 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 81ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:40:16 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:40:38 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:40:55 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:41:01 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:41:12 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:42:38 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:43:11 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:43:25 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:43:40 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:44:42 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"5000", "subfee"=>"60", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:44:43 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:44:45 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:45:52 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (2.0ms)
+Completed   in 19ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for "e.g. 100":String):
+    12: 	
+    13:     <label>Talktime<br>	
+    14: 	<span class="small">Minutes</span></label>
+    15:     <%= number_field_tag(:talktime, params[:talktime], value = "e.g. 100") %> 
+    16: 	
+    17:     <label>Data Usage<br>	
+    18: 	<span class="small">Megabyte (mb)</span></label>
+  app/views/mobile/index.html.erb:15:in `block in _app_views_mobile_index_html_erb__906490327_38251500__249870914'
+  app/views/mobile/index.html.erb:9:in `_app_views_mobile_index_html_erb__906490327_38251500__249870914'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:45:59 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed   in 23ms
+
+ActionView::Template::Error (undefined local variable or method `value' for #<#<Class:0x4a18058>:0x4a16d50>):
+    12: 	
+    13:     <label>Talktime<br>	
+    14: 	<span class="small">Minutes</span></label>
+    15:     <%= number_field_tag(:talktime, params[:talktime], value => "e.g. 100") %> 
+    16: 	
+    17:     <label>Data Usage<br>	
+    18: 	<span class="small">Megabyte (mb)</span></label>
+  app/views/mobile/index.html.erb:15:in `block in _app_views_mobile_index_html_erb__906490327_38842416__249870914'
+  app/views/mobile/index.html.erb:9:in `_app_views_mobile_index_html_erb__906490327_38842416__249870914'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:46:00 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed   in 22ms
+
+ActionView::Template::Error (undefined local variable or method `value' for #<#<Class:0x4a658d8>:0x4a64768>):
+    12: 	
+    13:     <label>Talktime<br>	
+    14: 	<span class="small">Minutes</span></label>
+    15:     <%= number_field_tag(:talktime, params[:talktime], value => "e.g. 100") %> 
+    16: 	
+    17:     <label>Data Usage<br>	
+    18: 	<span class="small">Megabyte (mb)</span></label>
+  app/views/mobile/index.html.erb:15:in `block in _app_views_mobile_index_html_erb__906490327_39001596__249870914'
+  app/views/mobile/index.html.erb:9:in `_app_views_mobile_index_html_erb__906490327_39001596__249870914'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:46:08 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (1.0ms)
+Completed   in 19ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for "100":String):
+    12: 	
+    13:     <label>Talktime<br>	
+    14: 	<span class="small">Minutes</span></label>
+    15:     <%= number_field_tag(:talktime, params[:talktime], value = "100") %> 
+    16: 	
+    17:     <label>Data Usage<br>	
+    18: 	<span class="small">Megabyte (mb)</span></label>
+  app/views/mobile/index.html.erb:15:in `block in _app_views_mobile_index_html_erb__906490327_27528624__249870914'
+  app/views/mobile/index.html.erb:9:in `_app_views_mobile_index_html_erb__906490327_27528624__249870914'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (40.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:46:17 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (2.0ms)
+Completed   in 19ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for 110:Fixnum):
+    12: 	
+    13:     <label>Talktime<br>	
+    14: 	<span class="small">Minutes</span></label>
+    15:     <%= number_field_tag(:talktime, params[:talktime], value = 110) %> 
+    16: 	
+    17:     <label>Data Usage<br>	
+    18: 	<span class="small">Megabyte (mb)</span></label>
+  app/views/mobile/index.html.erb:15:in `block in _app_views_mobile_index_html_erb__906490327_38058420__249870914'
+  app/views/mobile/index.html.erb:9:in `_app_views_mobile_index_html_erb__906490327_38058420__249870914'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:46:37 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (3.0ms)
+Completed   in 21ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for nil:NilClass):
+    12: 	
+    13:     <label>Talktime<br>	
+    14: 	<span class="small">Minutes</span></label>
+    15:     <%= number_field_tag(:talktime, value = 110, params[:talktime]) %> 
+    16: 	
+    17:     <label>Data Usage<br>	
+    18: 	<span class="small">Megabyte (mb)</span></label>
+  app/views/mobile/index.html.erb:15:in `block in _app_views_mobile_index_html_erb__906490327_38740128__249870914'
+  app/views/mobile/index.html.erb:9:in `_app_views_mobile_index_html_erb__906490327_38740128__249870914'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:46:39 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (1.0ms)
+Completed   in 17ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for nil:NilClass):
+    12: 	
+    13:     <label>Talktime<br>	
+    14: 	<span class="small">Minutes</span></label>
+    15:     <%= number_field_tag(:talktime, value = 110, params[:talktime]) %> 
+    16: 	
+    17:     <label>Data Usage<br>	
+    18: 	<span class="small">Megabyte (mb)</span></label>
+  app/views/mobile/index.html.erb:15:in `block in _app_views_mobile_index_html_erb__906490327_38990868__249870914'
+  app/views/mobile/index.html.erb:9:in `_app_views_mobile_index_html_erb__906490327_38990868__249870914'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:46:55 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:47:01 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:47:09 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"678", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:47:16 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"678", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+ERROR: compiling _app_views_mobile_index_html_erb__906490327_38253588__249870914 RAISED C:/Rails/n/app/views/mobile/index.html.erb:15: syntax error, unexpected tOP_ASGN, expecting ')'
+..._tag(:talktime, value = 110 ||= params[:talktime]) );@output...
+...                               ^
+C:/Rails/n/app/views/mobile/index.html.erb:15: syntax error, unexpected ')', expecting keyword_end
+... = 110 ||= params[:talktime]) );@output_buffer.safe_concat(' 
+...                               ^
+Function body:           def _app_views_mobile_index_html_erb__906490327_38253588__249870914(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "mobile/index";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('
+
+
+<div class="span-5 content-box prepend-top box">
+  <h3>We helps you find the best <em>SingTel\'s service price plan</em> and calculate how much you can save!</h3>
+</div>
+<div id="mobileform">
+<div class="span-8 prepend-top box">
+  ');@output_buffer.append=  form_tag ({:action => :result, :remote => true}) do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('	<h3 class="red">Mobile Price Plan Calculator</h3>
+    <p>Fill in your estimated monthly mobile usage:</p>	<hr>
+	
+    <label>Talktime<br>	
+	<span class="small">Minutes</span></label>
+    ');@output_buffer.append= ( number_field_tag(:talktime, value = 110 ||= params[:talktime]) );@output_buffer.safe_concat(' 
+');@output_buffer.safe_concat('	
+    <label>Data Usage<br>	
+	<span class="small">Megabyte (mb)</span></label>
+    ');@output_buffer.append= ( number_field_tag(:data, params[:data]) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	
+    <label>Subscription<br>	
+	<span class="small">Monthly Fees $</span></label>
+    ');@output_buffer.append= ( number_field_tag(:subfee, params[:subfee]) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+    ');@output_buffer.append= ( submit_tag("Calculate", :class => "calculate") );@output_buffer.safe_concat('
+');   end 
+@output_buffer.safe_concat('</div>
+
+<div class="span-8 prepend-top box last">
+');   if !@result.nil? 
+@output_buffer.safe_concat('  <h3 class="red">');@output_buffer.append= ( "Our Recommendation" );@output_buffer.safe_concat('</h3><p>for your usage is:</p><hr>
+  ');@output_buffer.append= ( @result  );@output_buffer.safe_concat('
+');   end 
+@output_buffer.safe_concat('</div>
+</div>
+
+<div class="span-18 prepend-6 last">
+<hr/>
+<div class="span-8">
+<table id="rounded-corner" summary="SingTel\'s Mobile Price Plan">
+  <caption class="blue">SingTel\'s Mobile Price Plan</caption>
+
+    <thead>
+    	<tr>
+        	<th scope="col" class="rounded-priceplan">Price Plan</th>
+            <th scope="col" class="rounded-q1">Monthly Subscription</th>
+            <th scope="col" class="rounded-q2">Free Local Outgoing Calls (mins)</th>
+            <th scope="col" class="rounded-q3">Free Local SMS</th>
+            <th scope="col" class="rounded-q4">Free Local Data</th>
+
+        </tr>
+    </thead>
+	<!--
+        <tfoot>
+    	<tr>
+        	<td colspan="5"><em></em></td>
+        	
+        </tr>
+    </tfoot>
+	-->
+
+    <tbody>
+    	<tr>
+        	<td>iOne Super Value</td>
+            <td>$15.00</td>
+            <td>80</td>
+            <td>50</td>
+            <td>-</td>
+
+        </tr>
+        <tr>
+        	<td>iOne Plus</td>
+            <td>$25.68</td>
+            <td>100</td>
+            <td>500</td>
+            <td>-</td>
+
+        </tr>
+        <tr>
+        	<td>iTwo Value</td>
+            <td>$48.15</td>
+            <td>300</td>
+            <td>500</td>
+            <td>-</td>
+
+        </tr>
+        <tr>
+        	<td>iTwo Plus</td>
+            <td>$82.93</td>
+            <td>700</td>
+            <td>500</td>
+            <td>-</td>
+
+        </tr>
+		<tr>
+        	<td>iThree Plus</td>
+            <td>$192.60</td>
+            <td>2000</td>
+            <td>2000</td>
+            <td>-</td>
+			
+        </tr>
+		<tr>
+        	<td>iFlexi Lite</td>
+            <td>$39.00</td>
+            <td>100</td>
+            <td>500</td>
+            <td>12Gb</td>
+			
+        </tr>
+		<tr>
+        	<td>iFlexi Value</td>
+            <td>$56.00</td>
+            <td>200</td>
+            <td>500</td>
+            <td>12Gb</td>
+			
+        </tr>
+		<tr>
+        	<td class="rounded-foot-left">iFlexi Plus</td>
+            <td>$95.00</td>
+            <td>500</td>
+            <td>500</td>
+            <td class="rounded-foot-right">12Gb</td>
+			
+        </tr>
+		
+    </tbody>
+</table>
+</div>
+</div>
+
+');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_view/template.rb:255:in `module_eval'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_view/template.rb:255:in `compile'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_view/template.rb:134:in `block in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/notifications.rb:54:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_view/template.rb:127:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/notifications.rb:52:in `block in instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/notifications.rb:52:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_view/render/rendering.rb:56:in `_render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_view/render/rendering.rb:26:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/abstract_controller/rendering.rb:114:in `_render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/abstract_controller/rendering.rb:108:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/abstract_controller/rendering.rb:101:in `render_to_string'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/abstract_controller/rendering.rb:92:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/rendering.rb:17:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+C:/Ruby192/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-3.0.1/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+C:/Rails/n/app/controllers/mobile_controller.rb:165:in `recologic'
+C:/Rails/n/app/controllers/mobile_controller.rb:49:in `usagelogic'
+C:/Rails/n/app/controllers/mobile_controller.rb:30:in `result'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/abstract_controller/base.rb:150:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/rendering.rb:11:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/callbacks.rb:435:in `_run__553425601__process_action__41128642__callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/callbacks.rb:93:in `run_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/notifications.rb:52:in `block in instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/notifications.rb:52:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/abstract_controller/base.rb:119:in `process'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/abstract_controller/rendering.rb:40:in `process'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal.rb:133:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_controller/metal.rb:173:in `block in action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/routing/route_set.rb:62:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/routing/route_set.rb:27:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/routing/route_set.rb:492:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/flash.rb:182:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/cookies.rb:287:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-3.0.1/lib/active_record/query_cache.rb:32:in `block in call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-3.0.1/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-3.0.1/lib/active_record/query_cache.rb:12:in `cache'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-3.0.1/lib/active_record/query_cache.rb:31:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-3.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.1/lib/rails/rack/logger.rb:13:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/static.rb:30:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.1/lib/rails/application.rb:168:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.1/lib/rails/application.rb:77:in `method_missing'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.1/lib/rails/rack/log_tailer.rb:14:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered mobile/index.html.erb within layouts/application (1.0ms)
+Completed   in 19ms
+
+ActionView::Template::Error (C:/Rails/n/app/views/mobile/index.html.erb:15: syntax error, unexpected tOP_ASGN, expecting ')'
+..._tag(:talktime, value = 110 ||= params[:talktime]) );@output...
+...                               ^
+C:/Rails/n/app/views/mobile/index.html.erb:15: syntax error, unexpected ')', expecting keyword_end
+... = 110 ||= params[:talktime]) );@output_buffer.safe_concat(' 
+...                               ^):
+    12: 	
+    13:     <label>Talktime<br>	
+    14: 	<span class="small">Minutes</span></label>
+    15:     <%= number_field_tag(:talktime, value = 110 ||= params[:talktime]) %> 
+    16: 	
+    17:     <label>Data Usage<br>	
+    18: 	<span class="small">Megabyte (mb)</span></label>
+  app/controllers/mobile_controller.rb:165:in `recologic'
+  app/controllers/mobile_controller.rb:49:in `usagelogic'
+  app/controllers/mobile_controller.rb:30:in `result'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:47:38 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"678", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:47:41 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"0", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:47:44 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"100", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:47:48 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:48:10 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:48:12 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:48:19 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"e.g. 300", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:48:22 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"300", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:48:46 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"300", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:48:47 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"300", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:48:49 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"545", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:48:59 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-01 13:49:15 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:49:17 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-01 13:49:21 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "talktime"=>"8989", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
