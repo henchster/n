@@ -39243,3 +39243,97 @@ Started POST "/mioplan/result?remote=true" for 127.0.0.1 at 2011-07-01 14:57:35 
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSe/BO2YEy/zicTi9W+MqULstwNann0ibfASAYS7L2w=", "pp01"=>"iOne Plus", "bb"=>"6 Mbps", "fline"=>"Analog", "lines"=>"2", "pp1"=>"", "pp2"=>"", "pp3"=>"", "pp4"=>"", "commit"=>"Calculate MLD", "remote"=>"true"}
 Rendered mioplan/index.html.erb within layouts/application (9.0ms)
 Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-02 19:55:10 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-02 19:55:50 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-02 19:56:31 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-02 19:56:35 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GKQWoHdy05bOzfxaXUuMHCyDEr70UuXAZRAW1Zo7NJw=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-02 19:57:18 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GKQWoHdy05bOzfxaXUuMHCyDEr70UuXAZRAW1Zo7NJw=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-02 19:57:28 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GKQWoHdy05bOzfxaXUuMHCyDEr70UuXAZRAW1Zo7NJw=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-02 19:57:52 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GKQWoHdy05bOzfxaXUuMHCyDEr70UuXAZRAW1Zo7NJw=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-02 19:57:54 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GKQWoHdy05bOzfxaXUuMHCyDEr70UuXAZRAW1Zo7NJw=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-02 19:58:16 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GKQWoHdy05bOzfxaXUuMHCyDEr70UuXAZRAW1Zo7NJw=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-02 19:58:33 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GKQWoHdy05bOzfxaXUuMHCyDEr70UuXAZRAW1Zo7NJw=", "talktime"=>"", "data"=>"", "subfee"=>"", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-02 19:58:50 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GKQWoHdy05bOzfxaXUuMHCyDEr70UuXAZRAW1Zo7NJw=", "talktime"=>"479", "data"=>"43143", "subfee"=>"54", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-02 19:58:57 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GKQWoHdy05bOzfxaXUuMHCyDEr70UuXAZRAW1Zo7NJw=", "talktime"=>"479", "data"=>"43143", "subfee"=>"65", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/mobile/result?remote=true" for 127.0.0.1 at 2011-07-02 19:58:59 +0800
+  Processing by MobileController#result as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GKQWoHdy05bOzfxaXUuMHCyDEr70UuXAZRAW1Zo7NJw=", "talktime"=>"479", "data"=>"43143", "subfee"=>"87", "commit"=>"Calculate", "remote"=>"true"}
+Rendered mobile/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 132ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-02 19:59:14 +0800
+  Processing by MobileController#index as HTML
+Rendered mobile/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
